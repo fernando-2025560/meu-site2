@@ -2,10 +2,8 @@
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  width: 1350px !important;
-  min-width: 1350px !important;
-  height: 1460px !important;
-  min-height: 1460px !important;
+  min-width: 1350% !important;
+  min-height: 1460% !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -18,7 +16,7 @@ html, body {
 
 .search-container {
     position: absolute !important;
-    top: 1px !important;  /* Distância do topo */
+    top: 0.1218026796589525vh !important;  /* Distância do topo */
     left: 600px !important;
     transform: translateX(-685px) !important;
     display: flex !important;
@@ -1598,4 +1596,5 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
