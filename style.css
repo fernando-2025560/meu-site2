@@ -1,8 +1,8 @@
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  min-width: 100vw !important;
-  min-height:  160vh  !important;
+  min-width: 1460px !important;
+  min-height:  1460px  !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: absolute !important;
@@ -1597,6 +1597,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
