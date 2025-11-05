@@ -18,7 +18,7 @@ html, body {
     position: absolute !important;
     top: 0.1218026796589525vh !important;  /* Distância do topo */
     left: 35.1493848857645vw !important;
-    transform: translateX(83.43483556638246vh) !important;
+    transform: translateX(93.43483556638246vh) !important;
     display: flex !important;
     align-items: center !important;
 }
@@ -1596,6 +1596,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
