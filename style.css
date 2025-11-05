@@ -6,7 +6,7 @@ html, body {
   min-height:  160%  !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
-  background-position: center center !important;
+  background-position: absolute !important;
   background-attachment: scroll !important;
   background-repeat: no-repeat !important;
 }
@@ -1596,6 +1596,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
