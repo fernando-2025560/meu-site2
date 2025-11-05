@@ -1,14 +1,16 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  min-width: 1460px !important;
-  min-height: 1460px !important;
-  background-image: url("1.jpg");
-  background-size: cover; /* cobre toda a área visível */
-  background-position: absolute; /* começa do topo, cobre até o final */
-  background-attachment: scroll; /* rola junto com o conteúdo */
-  background-repeat: no-repeat;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-width: 85.53016988869362vw !important;
+  min-height:  160%  !important;
+  background-image: url(1.jpg) !important;
+  background-size: cover !important;
+  background-position: absolute !important;
+  background-attachment: scroll !important;
+  background-repeat: no-repeat !important;
 }
+
+
 
 
 
@@ -1595,6 +1597,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
