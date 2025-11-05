@@ -1,14 +1,19 @@
 html, body {
+  height: 100%;
   margin: 0 !important;
   padding: 0 !important;
-  width: 100% !important;
-  min-width: 320px !important; /* Evita problemas em telas muito pequenas */
-  height: 100% !important;
-  min-height: 100% !important;
+}
+  
+/* cria um  plano de fundo independente do fluxo do documento */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -9999999;
+  pointer-events: none;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
-  background-attachment: scroll !important;
   background-repeat: no-repeat !important;
 }
 
@@ -1597,6 +1602,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
