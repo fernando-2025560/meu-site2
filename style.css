@@ -4,7 +4,7 @@ html, body {
   width: 100% !important;
   height: 200% + 5cm !important;
   background-image: url('1.jpg') !important;
-  background-size: absolute !important;
+  background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-attachment: scroll !important;
@@ -1596,6 +1596,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
