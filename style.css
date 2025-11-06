@@ -13,8 +13,6 @@ html, body {
 
 
 
-
-
 .search-container {
     position: absolute !important;
     top: 0.1218026796589525vh !important;  /* Distância do topo */
@@ -1597,6 +1595,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
