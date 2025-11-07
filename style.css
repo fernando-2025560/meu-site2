@@ -2,7 +2,7 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   width: 100% !important;
-  height: 200% + 20.997vh  !important;
+  height: 100% + 24.497vh  !important;
   background-image: url('1.jpg') !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -1676,6 +1676,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
