@@ -146,22 +146,21 @@ body {
   }
   
   
-  /* Estilo do botão */
+/* Estilo do botão */
 .search-button {
   position: absolute !important;
-  height: 1.68vh !important; /* ← altura física de 5mm */
+  height: 5mm !important; /* altura de 5 milímetros */
+  width: 3cm !important;  /* largura de 3 centímetros */
   border-radius: 1.148vw !important;
   border: 0.208vw solid black !important;
   font-size: 16px !important;
   cursor: pointer !important;
-  width: 3cm !important;
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important;
   padding-left: 0.215vw !important;
-  top: 1.75vh !important;
+  top: 5mm !important;
   right: 23.094vw !important;
 }
-
   
 .search-bar:focus {
     border-color: black !important;
@@ -1675,6 +1674,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
