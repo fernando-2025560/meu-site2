@@ -2,7 +2,7 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   width: 100% !important;
-  height: 200% + 5cm !important;
+  height: 200% + 188.97637795275588px  !important;
   background-image: url('1.jpg') !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -24,14 +24,14 @@ html, body {
 }
 
 .content {
-    padding: 19046px !important;
+    padding: 1366vw !important;
 }
 
 
 .media {
     display: flex !important;
     justify-content: space-around !important;
-    margin-bottom: 19046px !important;
+    margin-bottom: 1366vw !important;
 }
 
 
@@ -1596,6 +1596,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
