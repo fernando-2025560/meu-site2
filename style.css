@@ -183,11 +183,11 @@ body {
 
 .icon-glass-container {
   position: fixed !important;
-  bottom: 11.34px !important; /* distância de 3mm da parte inferior da tela */
+  bottom: 3mm !important; /* distância de 3mm da parte inferior da tela */
   right: 3px !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
-  align-items: center !important;       /* alinha verticalmente os ícones */
+  // align-items: center !important;       /* alinha verticalmente os ícones */
   justify-content: center !important;   /* alinha horizontalmente se necessário */
   gap: 7px !important;
   z-index: 9999 !important;
@@ -207,7 +207,7 @@ body {
   cursor: pointer !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  bottom: 11.34px !important;
+  bottom: 3mm !important;
   
 }
 
@@ -218,12 +218,12 @@ body {
   display: block !important;
   box-sizing: border-box !important;
   overflow: visible  !important;
-  bottom: 11.34px !important;
+  bottom: 3mm !important;
 }
 
 .glass-icon {
-  width: 35px !important;
-  height: 35px !important;
+  width: 24px !important;
+  height: 24px !important;
   border-radius: 50% !important;
   backdrop-filter: blur(6px) saturate(180%) !important;
   background: rgba(255, 255, 255, 0.2) !important;
@@ -263,7 +263,7 @@ body {
   pointer-events: none !important;
   object-fit: contain !important;
   box-sizing: border-box !important;
-  bottom: 11.34px !important;
+  bottom: 3mm !important;
   overflow: visible !important;
   position: center;
 }
@@ -1686,6 +1686,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
