@@ -149,8 +149,8 @@ body {
 /* Estilo do botão */
 .search-button {
   position: absolute !important;
-  height: 5mm !important; /* altura de 5 milímetros */
-  width: 3cm !important;  /* largura de 3 centímetros */
+  height: 1.68vh !important; /* altura de 5 milímetros */
+  width: 5.906vw !important;  /* largura de 3 centímetros */
   border-radius: 1.148vw !important;
   border: 0.208vw solid black !important;
   font-size: 16px !important;
@@ -1674,6 +1674,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
