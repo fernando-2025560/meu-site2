@@ -1086,7 +1086,7 @@ body {
 
 
 .conteudo {
-  width: 95%;
+  width: 5%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -1598,6 +1598,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
