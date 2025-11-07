@@ -192,7 +192,8 @@ body {
   gap: 7px !important;
   z-index: 9999 !important;
   overflow: visible !important;         /* garante que nada seja cortado */
-  box-sizing: border-box !important;
+  box-sizing: border-box !important; 
+  margin-top: 23cm;
 }
 
 .icon-glass-container button {
@@ -1686,6 +1687,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
