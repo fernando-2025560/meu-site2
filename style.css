@@ -132,7 +132,7 @@ body {
   }
   
   .search-bar {
-    width: 3cm !important;
+    width: 11.9cm !important;
     height: 1.68vh !important;
     padding-left: 34.969vw !important;
     font-size: 16px !important;
@@ -149,7 +149,7 @@ body {
   /* Estilo do botão */
 .search-button {
   position: absolute !important;
-  height: 1.68vh !important; /* ← altura física de 5mm */
+  height: 4.7vh !important; /* ← altura física de 5mm */
   border-radius: 1.148vw !important;
   border: 0.208vw solid black !important;
   font-size: 16px !important;
@@ -1675,6 +1675,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
