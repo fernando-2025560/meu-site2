@@ -1573,8 +1573,6 @@ h2 {
 }
 
 
-overflow-x: scroll;
-white-space: nowrap;
 
 
 /* Responsivo (opcional) */
@@ -1600,6 +1598,7 @@ white-space: nowrap;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
