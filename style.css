@@ -3,7 +3,7 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   width: 100% !important;
-  height: 27cm  !important;
+  height: 1460px  !important;
   background-image: url('1.jpg') !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -1676,6 +1676,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
