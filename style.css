@@ -171,8 +171,8 @@ body {
 .icon-glass-container {
    width: 1.721vw;
   height: 2.667vh
-  position: lower !important;
-  top: 87.5vh !important;
+  position: absolute !important;
+  top: 20cm !important;
   right: 0.215vw !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
@@ -1600,6 +1600,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
