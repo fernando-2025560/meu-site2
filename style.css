@@ -1333,7 +1333,7 @@ h2 {
 /* Estilo do vídeo incorporado */
 .video-container iframe {
   width: 320px;              /* largura exata */
-  height: 192px;             /* altura exata */
+  height: 180px;             /* altura exata */
   display: block;            /* garante que fique acima da legenda */
   margin: 0 auto;            /* centraliza dentro do container */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* sombra sutil opcional */
@@ -1536,7 +1536,7 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption12 {
   position: absolute;
-  top: calc(134.333vh + 20vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  top: calc(1209vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 27.107vw;                    /* mesma distância lateral do vídeo */
   width: 22.951vw;                  /* igual à largura do vídeo */
   text-align: absolute;
@@ -1600,6 +1600,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
