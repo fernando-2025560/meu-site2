@@ -1,37 +1,40 @@
-
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  width: 100% !important;
-  height: 1460px  !important;
-  background-image: url('1.jpg') !important;
+  min-width: 1460 !important; /* Evita problemas em telas muito pequenas */
+  height: 1460px !important;
+  min-height: 1460px !important;
+  background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
+  background-attachment: scroll !important;
   background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
 }
+
+
+
 
 
 
 
 .search-container {
     position: absolute !important;
-    top: 0.1218026796589525vh !important;  /* Distância do topo */
-    left: 35.1493848857645vw !important;
-    transform: translateX(93.43483556638246vh) !important;
+    top: 1px !important;  /* Distância do topo */
+    left: 600px !important;
+    transform: translateX(-685px) !important;
     display: flex !important;
     align-items: center !important;
 }
 
 .content {
-    padding: 1366vw !important;
+    padding: 19046px !important;
 }
 
 
 .media {
     display: flex !important;
     justify-content: space-around !important;
-    margin-bottom: 1366vw !important;
+    margin-bottom: 19046px !important;
 }
 
 
@@ -49,8 +52,8 @@ body {
 
 header{
     background-color: transparent !important;
-    height: 7.778vh !important;
-    width: 77.459vw !important;
+    height: 70px !important;
+    width: 1080px !important;
 }
 
 
@@ -59,8 +62,8 @@ header{
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
-    width: 0.215vw !important;
-    height: 6.3vh !important;
+    width: 3px !important;
+    height: 56.7px !important;
     object-fit: cover !important;
     z-index: 999999999999 !important;
 }
@@ -79,14 +82,14 @@ body {
 
 header {
     background-color: transparent !important;
-    height: 16.667vh !important;
-    width: 77.459vw !important;
+    height: 150px !important;
+    width: 1080px !important;
 }
 
 
   
   h1 {
-    left: 7.602vw !important;
+    left: 106px !important;
     z-index: 9999999999999 !important;
     color: #000 !important;
   }
@@ -94,7 +97,7 @@ header {
   
   
   p {
-    font-size: 1.322vh !important; /* Altere o valor conforme necessário */
+    font-size: 11.9px !important; /* Altere o valor conforme necessário */
   }
   
   body {
@@ -117,8 +120,8 @@ body {
 }
 
 body {
-    margin: 0.215vw !important;
-    padding: 0.43vw !important;
+    margin: 3px !important;
+    padding: 6px !important;
     height: 100vh !important;
     display: flex !important;
     justify-content: center !important;
@@ -127,30 +130,29 @@ body {
   
   .search-container {
     position: absolute !important;
-    top: 1.05vh !important;
+    top: 9.45px !important;
     display: flex !important;
   }
   
-  .search-bar {
-    width: 23.622vw !important;
-    height: 1429.501vh !important;
-    padding-left: 34.969vw !important;
-    font-size: 16px !important;
-    border: 0.208vw solid black !important;
-    border-radius: 1.148vw !important;
-    position: absolute !important;
-    top: 1.75vh !important;
-    left: 50%  !important;
-    transform: translateX(-50%) !important;
-    z-index: 1000000000000000000000 !important;
-  }
-  
-  
+  /* Estilo da barra de pesquisa */
+.search-bar {
+  width: 472px !important; /* 12.5cm de largura */
+  height: 30.236px !important; /* 8mm de altura */
+  font-size: 16px !important; /* Tamanho da fonte */
+  border: 2.8px solid black !important; /* Borda de 7mm */
+  border-radius: 16px !important; /* Bordas arredondadas */
+  position: absolute !important; 
+  top: 7.56px !important; /* 1mm do topo */
+  left: 415.7px !important; /* 5cm da lateral esquerda */
+  padding-left: 11.34px !important; /* "Digite aqui" a 3mm da lateral esquerda */
+  z-index: 1000000000000000000000 !important;
+  background-color: #fff !important; /* Fundo branco */
+}
+
 /* Estilo do botão de pesquisa */
 .search-button {
   position: absolute !important;
-  height: 1429.501vh;/* Estilo do botão de pesquisa */
-  position: absolute !important;
+  height: 30.236px !important; /* 8mm de altura */
   width: 113.39px !important; /* 3cm de largura */
   border-radius: 16px !important; /* Bordas arredondadas */
   border: 2.8px solid black !important; /* Borda de 7mm */
@@ -163,14 +165,19 @@ body {
   background-color: transparent !important; /* Fundo transparente */
 }
 
-  
+/* Texto do botão "Pesquisar" */
+.search-button::before {
+  font-size: 16px !important; /* Tamanho da fonte */
+  color: black !important; /* Cor do texto */
+}
+
   
 .search-bar:focus {
     border-color: black !important;
 }
 
 
-..icon-glass-container {
+.icon-glass-container {
   position: fixed !important;
   bottom: 11.34px !important; /* distância de 3mm da parte inferior da tela */
   right: 3px !important;
@@ -256,8 +263,6 @@ body {
   overflow: visible !important;
   position: center;
 }
-
-
 
 
 
@@ -533,7 +538,7 @@ body {
 :root {
   --video-width: 226.77165354330708px;
   --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
-  --video-top: 0;
+  --video-top: 0px;
   --video-left: 134px;
   --caption-gap: 56.69291338582677px;
 }
@@ -1089,7 +1094,7 @@ body {
 
 
 .conteudo {
-  width: 5%;
+  width: 95%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -1334,7 +1339,7 @@ h2 {
 /* Estilo do vídeo incorporado */
 .video-container iframe {
   width: 320px;              /* largura exata */
-  height: 180px;             /* altura exata */
+  height: 192px;             /* altura exata */
   display: block;            /* garante que fique acima da legenda */
   margin: 0 auto;            /* centraliza dentro do container */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* sombra sutil opcional */
@@ -1511,7 +1516,7 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption11 {
   position: absolute;
-  top: calc(134.333vh + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 37.8px;                    /* mesma distância lateral do vídeo */
   width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
@@ -1528,21 +1533,21 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox12 {
   position: absolute;
-  top: 134.333vh;         /* ajuste conforme a posição do seu vídeo */
-  left: 27.107vw;        /* distância da lateral esquerda */
-  width: 22.951vw;      /* largura padrão do vídeo */
-  height: 20vh;     /* altura padrão do vídeo */
+  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
+  left: 377.953px;        /* distância da lateral esquerda */
+  width: 320px;      /* largura padrão do vídeo */
+  height: 180px;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption12 {
   position: absolute;
-  top: calc(1209vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 27.107vw;                    /* mesma distância lateral do vídeo */
-  width: 22.951vw;                  /* igual à largura do vídeo */
+  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 377.953px;                    /* mesma distância lateral do vídeo */
+  width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 1.4vh;
+  font-size: 13px;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1553,27 +1558,28 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox13 {
   position: absolute;
-  top: 104.987vh;         /* ajuste conforme a posição do seu vídeo */
-  left: 51.50vw;        /* distância da lateral esquerda */
-  width: 22.951vw;      /* largura padrão do vídeo */
-  height: 20vh;     /* altura padrão do vídeo */
+  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
+  left: 718.11px;        /* distância da lateral esquerda */
+  width: 320px;      /* largura padrão do vídeo */
+  height: 180px;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption13 {
   position: absolute;
-  top: calc(50cm); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 15cm;                    /* mesma distância lateral do vídeo */
-  width: 22.951vw;                  /* igual à largura do vídeo */
+  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 718.11px;                    /* mesma distância lateral do vídeo */
+  width: 320px;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 1.4vh;
+  font-size: 13px;
   line-height: 1.1;
   color: #000;
   margin: 0;
   padding: 0;
   text-decoration: underline;
 }
+
 
 
 
@@ -1676,6 +1682,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
