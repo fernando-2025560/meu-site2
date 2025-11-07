@@ -169,7 +169,7 @@ body {
 
 
 .icon-glass-container {
-  position: fixed !important;
+  position: lower !important;
   top: 98% !important;
   right: 0.215vw !important;
   display: flex !important;
@@ -1598,6 +1598,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
