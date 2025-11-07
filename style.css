@@ -1573,6 +1573,10 @@ h2 {
 }
 
 
+overflow-x: scroll;
+white-space: nowrap;
+
+
 /* Responsivo (opcional) */
 @media (max-width: 600px) {
   #customYT,
@@ -1596,6 +1600,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
