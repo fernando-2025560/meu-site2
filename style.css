@@ -79,14 +79,14 @@ body {
 
 header {
     background-color: transparent !important;
-    height: 150px !important;
-    width: 1080px !important;
+    height: 16.667vh !important;
+    width: 77.459vw !important;
 }
 
 
   
   h1 {
-    left: 106px !important;
+    left: 7.602vw !important;
     z-index: 9999999999999 !important;
     color: #000 !important;
   }
@@ -94,7 +94,7 @@ header {
   
   
   p {
-    font-size: 11.9px !important; /* Altere o valor conforme necessário */
+    font-size: 1.322vh !important; /* Altere o valor conforme necessário */
   }
   
   body {
@@ -117,8 +117,8 @@ body {
 }
 
 body {
-    margin: 3px !important;
-    padding: 6px !important;
+    margin: 0.215vw !important;
+    padding: 0.43vw !important;
     height: 100vh !important;
     display: flex !important;
     justify-content: center !important;
@@ -127,13 +127,13 @@ body {
   
   .search-container {
     position: absolute !important;
-    top: 9.45px !important;
+    top: 1.05vh !important;
     display: flex !important;
   }
   
   .search-bar {
-    width: 35.4px !important;
-    height: 15.118110236220474px !important;
+    width: 2.539vw !important;
+    height: 1.68vh !important;
     padding-left: 487.566px !important;
     font-size: 16px !important;
     border: 2.9px solid black !important;
@@ -1596,6 +1596,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
