@@ -1607,6 +1607,75 @@ h2 {
 
 
 
+/* ============================= */
+/* 📱 Responsividade em largura  */
+/* ============================= */
+
+/* Extra large → desktop full */
+@media (max-width: 83.333vw) { /* ~1600px */
+  .video-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Large → notebooks */
+@media (max-width: 73.958vw) { /* ~1420px */
+  .video-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Medium → tablets grandes */
+@media (max-width: 62.5vw) { /* ~1200px */
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small → tablets pequenos / smartphones grandes */
+@media (max-width: 43.033vw) { /* ~825px */
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Extra small → smartphones menores */
+@media (max-width: 28.646vw) { /* ~550px */
+  .header,
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ============================= */
+/* 📏 Responsividade em altura   */
+/* ============================= */
+
+@media (max-height: 84.259vh) { /* ~900px */
+  #customYT {
+    height: 80vh;
+  }
+}
+
+@media (max-height: 73.611vh) { /* ~780px */
+  #videoCaption {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-height: 67.944vh) { /* ~720px */
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-height: 58.333vh) { /* ~620px */
+  #customYT {
+    height: 60vh;
+  }
+}
+
 
 
 
