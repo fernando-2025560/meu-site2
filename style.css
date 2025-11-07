@@ -132,7 +132,7 @@ body {
   }
   
   .search-bar {
-    width: 11.9cm !important;
+    width: 23.622vw !important;
     height: 1.68vh !important;
     padding-left: 34.969vw !important;
     font-size: 16px !important;
@@ -154,7 +154,7 @@ body {
   border: 0.208vw solid black !important;
   font-size: 16px !important;
   cursor: pointer !important;
-  width: 8.4vw !important;
+  width: 5.906vw !important;
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important;
   padding-left: 0.215vw !important;
@@ -1675,6 +1675,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
