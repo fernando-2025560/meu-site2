@@ -1541,7 +1541,7 @@ h2 {
   width: 22.951vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 1.444vh;
+  font-size: 1.4vh;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1553,7 +1553,7 @@ h2 {
 #customVideoBox13 {
   position: absolute;
   top: 104.987vh;         /* ajuste conforme a posição do seu vídeo */
-  left: 51.504vw;        /* distância da lateral esquerda */
+  left: 51.50vw;        /* distância da lateral esquerda */
   width: 22.951vw;      /* largura padrão do vídeo */
   height: 20vh;     /* altura padrão do vídeo */
 }
@@ -1562,11 +1562,11 @@ h2 {
 #videoCaption13 {
   position: absolute;
   top: calc(134.333vh + 20vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 51.504vw;                    /* mesma distância lateral do vídeo */
+  left: 51.50vw;                    /* mesma distância lateral do vídeo */
   width: 22.951vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 1.444vh;
+  font-size: 1.4vh;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1600,6 +1600,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
