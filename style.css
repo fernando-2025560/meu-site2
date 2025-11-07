@@ -2,7 +2,7 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   min-width: 100vw !important; /* Evita problemas em telas muito pequenas */
-  min-height: 100vh + 7cm  !important;
+  min-height: 624px  !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -1681,6 +1681,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
