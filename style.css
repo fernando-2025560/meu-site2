@@ -530,7 +530,7 @@ body {
 :root {
   --video-width: 226.77165354330708px;
   --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
-  --video-top: 0px;
+  --video-top: 0;
   --video-left: 134px;
   --caption-gap: 56.69291338582677px;
 }
@@ -1598,6 +1598,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
