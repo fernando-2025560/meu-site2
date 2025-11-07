@@ -135,7 +135,7 @@ body {
     width: 2.539vw !important;
     height: 1.68vh !important;
     padding-left: 34.969vw !important;
-    font-size: 1.778vh !important;
+    font-size: 16px !important;
     border: 0.208vw solid black !important;
     border-radius: 1.148vw !important;
     position: absolute !important;
@@ -152,13 +152,13 @@ body {
     height: 4.7vh !important;
     border-radius: 1.148vw !important;
     border: 0.208vw solid black !important;
-    font-size: 1.778vh  !important;
+    font-size: 16px  !important;
     cursor: pointer !important;
     width: 8.4vw !important;
     z-index: 10000000000000000000000 !important;
     background-color: transparent !important;
     padding-left: 0.215vw !important;
-    top: 0.844vh !important;
+    top: 0.84vh !important;
     right: 23.094vw !important;
   }
   
@@ -1600,6 +1600,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
