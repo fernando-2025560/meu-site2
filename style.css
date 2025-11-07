@@ -1550,21 +1550,21 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox13 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.11px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  top: 134.333vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 51.504vw;        /* distância da lateral esquerda */
+  width: 22.951vw;      /* largura padrão do vídeo */
+  height: 20vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption13 {
   position: absolute;
-  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.11px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  top: calc(134.333vh + 20vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 51.504vw;                    /* mesma distância lateral do vídeo */
+  width: 22.951vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1.444vh;
   line-height: 1.1;
   color: #000;
   margin: 0;
@@ -1576,7 +1576,7 @@ h2 {
 
 
 /* Responsivo (opcional) */
-@media (max-width: 600px) {
+@media (max-width: 43.033vw) {
   #customYT,
   #videoCaption {
     width: 100%;
@@ -1587,17 +1587,18 @@ h2 {
 
 
 /* Responsividade */
-@media (max-width: 1024px) {
+@media (max-width: 73.442vw) {
   .video-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 67.944vh) {
   .video-grid {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
