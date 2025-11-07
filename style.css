@@ -211,7 +211,7 @@ body {
 
 .glass-icon {
   width: 2.51vw !important;
-  height: 3.889vh !important;
+  height: 23.889vh !important;
   border-radius: 50% !important;
   backdrop-filter: blur(0.43vw) saturate(180%) !important;
   background: rgba(255, 255, 255, 0.2) !important;
@@ -1598,6 +1598,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
