@@ -139,7 +139,7 @@ body {
     border: 0.208vw solid black !important;
     border-radius: 1.148vw !important;
     position: absolute !important;
-    top: 2mm !important;
+    top: 5mm !important;
     left: 50%  !important;
     transform: translateX(-50%) !important;
     z-index: 1000000000000000000000 !important;
@@ -1600,6 +1600,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
