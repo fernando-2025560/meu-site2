@@ -1,6 +1,6 @@
 
 html, body {
-  margin: 0 !important;
+  margin-top: 0 !important;
   padding: 0 !important;
   width: 100% !important;
   height: 1344.58px  !important;
@@ -24,6 +24,7 @@ html, body {
   z-index: 9999 !important;
   overflow: visible !important;         /* garante que nada seja cortado */
   box-sizing: border-box !important;
+  margin-top: 20cm;
 }
 
 .icon-glass-container button {
@@ -1765,6 +1766,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
