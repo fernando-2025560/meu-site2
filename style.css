@@ -1561,8 +1561,8 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption13 {
   position: absolute;
-  top: calc(45cm); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 14.6cm;                    /* mesma distância lateral do vídeo */
+  top: calc(50cm); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 15cm;                    /* mesma distância lateral do vídeo */
   width: 22.951vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1600,6 +1600,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
