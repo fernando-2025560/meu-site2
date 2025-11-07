@@ -1,10 +1,9 @@
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  min-width: 1460px !important; /* Evita problemas em telas muito pequenas */
+  min-width: 100vw !important; /* Evita problemas em telas muito pequenas */
   height: 1460px !important;
-  min-height: 1460px !important;
-  max-height: 1530px !important;
+  min-height: 100vh + 7cm  !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -1683,6 +1682,7 @@ h2 {
     height: 60vh;
   }
 }
+
 
 
 
