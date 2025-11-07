@@ -49,8 +49,8 @@ body {
 
 header{
     background-color: transparent !important;
-    height: 70px !important;
-    width: 1080px !important;
+    height: 7.778vh !important;
+    width: 77.459vw !important;
 }
 
 
@@ -1596,6 +1596,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
