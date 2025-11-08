@@ -1563,28 +1563,26 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox13 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.11px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  top: 75vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 37.5vw;        /* distância da lateral esquerda */
+  width: 16.7vw;      /* largura padrão do vídeo */
+  height: 9.4vw;     /* altura padrão do vídeo */
 }
 
-/* Legenda-link abaixo do vídeo */
 #videoCaption13 {
   position: absolute;
-  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.11px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
-  text-align: absolute;
+  top: calc(75vh + 9.4vw);   /* posição do vídeo (75vh) + altura do vídeo (9.4vw) */
+  left: 37.5vw;              /* mesma distância lateral do vídeo */
+  width: 16.7vw;             /* igual à largura do vídeo */
+  text-align: center;        /* “absolute” não é valor válido */
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 13px;
+  font-size: 0.68vw;         /* 13px ≈ 0.68% da largura da tela de 1920px */
   line-height: 1.1;
   color: #000;
   margin: 0;
   padding: 0;
   text-decoration: underline;
 }
-
 
 
 
@@ -1703,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
