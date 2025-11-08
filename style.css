@@ -1,7 +1,7 @@
 html, body {
-  height: 100%;
-  margin: 0 !important;
+ margin: 0 !important;
   padding: 0 !important;
+  height: 100%;
 }
   
 /* cria um  plano de fundo independente do fluxo do documento */
@@ -14,7 +14,8 @@ body::before {
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat !important; 
+  min-height: calc(100vh + 7cm);
 }
 
 
@@ -1702,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
