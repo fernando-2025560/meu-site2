@@ -293,8 +293,8 @@ body {
 }
 
 #qrcode {
-  width: 83px !important;
-  height: 83px !important;
+  width: 113px !important;
+  height: 113px !important;
   position: fixed;
   bottom: 367.795px;
 }
@@ -346,8 +346,8 @@ body {
   position: absolute;
   top: 86.9291338582677px;
   left: 37.79527559055118px;
-  width: 380px;
-  height: 210px;
+  width: 16.67vw;
+  height: 9.38vw;
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
@@ -543,7 +543,7 @@ body {
 :root {
   --video-width: 226.77165354330708px;
   --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
-  --video-top: 0px;
+  --video-top: 0;
   --video-left: 134px;
   --caption-gap: 56.69291338582677px;
 }
@@ -614,8 +614,8 @@ body {
   position: absolute;
   top: 86.9291338582677px;
   left: 37.79527559055118px;
-  width: 320px;
-  height: 180px;
+  width: 16.67vw;
+  height: 9.38vw;
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
@@ -656,7 +656,7 @@ body {
   text-decoration: underline;
   cursor: pointer;
   line-height: 1.1;
-  width: 320.95275590551176px;
+  width: 16.67vw;
   bottom: 362.835px;
 }
 
@@ -796,14 +796,14 @@ canvas {
   position: absolute;
   top: 86.93px; /* posição vertical do vídeo na tela */
   left: 374px;  /* posição horizontal do vídeo */
-  width: 320px; /* largura total do contêiner, igual ao vídeo */
+  width: 16.67vw; /* largura total do contêiner, igual ao vídeo */
   height: auto;
 }
 
 #custom-video {
   display: block;
-  width: 320px;
-  height: 180px;
+  width: 16.67vw;
+  height: 9.38vw;
   border-radius: 6px;
   z-index: 2;
 }
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
