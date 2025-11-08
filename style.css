@@ -23,7 +23,7 @@ body::before {
 
 .search-container {
     position: absolute !important;
-    top: 1px !important;  /* Distância do topo */
+    top: 0.1218026796589525vhb !important;  /* Distância do topo */
     left: 600px !important;
     transform: translateX(-685px) !important;
     display: flex !important;
@@ -1703,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
