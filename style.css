@@ -171,7 +171,7 @@ body {
 
 /* Texto do botão "Pesquisar" */
 .search-button::before {
-  font-size: 16px !important; /* Tamanho da fonte */
+  font-size: 1.778vh !important; /* Tamanho da fonte */
   color: black !important; /* Cor do texto */
 }
 
@@ -458,11 +458,11 @@ body {
 
 .video-container {
   position: absolute;
-  top: 76.9291338582677px;
-  left: 37.79527559055118px;
-  width: 380px;
-  height: 210px;
-  border-radius: 5px;
+  top: 8.548vh;
+  left: 2.362204724409449rem;
+  width: 19.792vw;
+  height: 23.333vh;
+  border-radius: 0.2605vw;
   overflow: hidden;
   cursor: pointer;
 }
@@ -496,14 +496,14 @@ body {
 /* Legenda */
 .caption-link {
   position: absolute;
-  top: calc(75.59055118110236px + 210px + 0.1px);
-  left: 37.79527559055118px;
-  font-size: 13px;
+  top: 17.8556594488975rem;
+  left: 2.3622347430944875rem;
+  font-size: 0.8125rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
   line-height: 1.2;
-  width: 377.95275590551176px;
+  width: 23.62204719485rem;
 }
 
 
@@ -541,11 +541,11 @@ body {
 
 /* Dimensões fixas */
 :root {
-  --video-width: 226.77165354330708px;
-  --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
+  --video-width: 14.173228346456693rem;
+  --video-height: 19.024vh; /* 16:9 proporção exata para 60px largura */
   --video-top: 0;
-  --video-left: 134px;
-  --caption-gap: 56.69291338582677px;
+  --video-left: 8.375rem;
+  --caption-gap: 3.54330786614173rem;
 }
 
 .video-container {
@@ -566,7 +566,7 @@ body {
   width: var(--video-width);
   height: var(--video-height);
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   z-index: 2;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -579,7 +579,7 @@ body {
 #player iframe {
   width: var(--video-width);
   height: var(--video-height);
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   z-index: 1;
   position: relative;
 }
@@ -587,7 +587,7 @@ body {
 /* Legenda com alinhamento e distância de 1.5mm abaixo da imagem */
 .caption-link {
   position: absolute;
-  top: calc(var(--video-top)  var(--video-height) + 188.97637795275588px);
+  top: calc(var(--video-top)  var(--video-height) + 11.81102362204743rem);
   left: var(--video-left);
   width: var(--video-width);
   font-size: 13px;
@@ -612,11 +612,11 @@ body {
 
 .video-container {
   position: absolute;
-  top: 86.9291338582677px;
+  top: 5.4330708661417315rem;
   left: 37.79527559055118px;
   width: 16.67vw;
   height: 9.38vw;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   overflow: hidden;
   cursor: pointer;
 }
@@ -751,7 +751,7 @@ canvas {
 /* CSS a ser adicionado */
 #custom-overlay-container {
   position: absolute;
-  top: 86.9291338582677px;
+  top: 5.4330708661417315rem;
   left: 453.54330708661416px;
   pointer-events: none;  /* evita interferência na página */
 }
@@ -769,7 +769,7 @@ canvas {
 
 #custom-caption {
   position: relative;
-  top: 0.41px !important; /* 0.1 mm abaixo da imagem */
+  top: 0.025625rem !important; /* 0.1 mm abaixo da imagem */
   display: block;
   text-align: absolute;
   z-index: 3;
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
