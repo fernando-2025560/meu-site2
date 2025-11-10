@@ -171,7 +171,7 @@ body {
 
 /* Texto do botão "Pesquisar" */
 .search-button::before {
-  font-size: 1.778vh !important; /* Tamanho da fonte */
+  font-size: 16px !important; /* Tamanho da fonte */
   color: black !important; /* Cor do texto */
 }
 
@@ -348,7 +348,7 @@ body {
   left: 2.711vw;
   width: 16.67vw;
   height: 9.38vw;
-  border-radius: 5px;
+  border-radius: 0.2605vw;
   overflow: hidden;
   cursor: pointer;
 }
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
