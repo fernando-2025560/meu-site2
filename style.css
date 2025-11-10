@@ -156,7 +156,7 @@ body {
 /* Estilo do botão de pesquisa */
 .search-button {
   position: absolute !important;
-  height: 2.362rem !important; /* 5mm de altura */
+  height: 5mm !important; /* 5mm de altura */
   width: 7.087rem !important; /* 3cm de largura */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
   border: 0.201vw solid black !important; /* Borda de 7mm */
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
