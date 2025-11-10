@@ -24,7 +24,7 @@ body::before {
 .search-container {
     position: absolute !important;
     top: 0.1218026796589525vhb !important;  /* Distância do topo */
-    left: 600px !important;
+    left: 43.033vw !important;
     transform: translateX(-685px) !important;
     display: flex !important;
     align-items: center !important;
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
