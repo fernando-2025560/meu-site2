@@ -160,7 +160,7 @@ body {
   width: 7.087rem !important; /* 3cm de largura */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
   border: 0.201vw solid black !important; /* Borda de 7mm */
-  font-size: 16px !important; /* Tamanho da fonte */
+  font-size:  1.778vh;
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
   top: 0.84vh !important; /* 3mm do topo */
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
