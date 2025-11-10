@@ -15,7 +15,7 @@ body::before {
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important; 
-  min-height: calc(100vh + 7cm);
+  min-height: calc(100vh + 27.4vh);
 }
 
 
@@ -23,8 +23,8 @@ body::before {
 
 .search-container {
     position: absolute !important;
-    top: 0.1218026796589525vhb !important;  /* Distância do topo */
-    left: 600px !important;
+    top: 0.1218026796589525vh !important;  /* Distância do topo */
+    left: 43.033vw !important;
     transform: translateX(-685px) !important;
     display: flex !important;
     align-items: center !important;
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
