@@ -156,22 +156,22 @@ body {
 /* Estilo do botão de pesquisa */
 .search-button {
   position: absolute !important;
-  height: 30.236px !important; /* 8mm de altura */
-  width: 113.39px !important; /* 3cm de largura */
-  border-radius: 16px !important; /* Bordas arredondadas */
-  border: 2.8px solid black !important; /* Borda de 7mm */
-  font-size: 16px !important; /* Tamanho da fonte */
+  height: 3.36vh !important; /* 8mm de altura */
+  width: 8.132vw !important; /* 3cm de largura */
+  border-radius: 1.148vw !important; /* Bordas arredondadas */
+  border: 0.201vw solid black !important; /* Borda de 7mm */
+  font-size: 1.778vh !important; /* Tamanho da fonte */
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
-  top: 7.56px !important; /* 2mm do topo */
-  right: 8.5cm !important; /* 8.5cm da lateral direita */
+  top: 0.84vh !important; /* 2mm do topo */
+  right: 23.048vw !important; /* 8.5cm da lateral direita */
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important; /* Fundo transparente */
 }
 
 /* Texto do botão "Pesquisar" */
 .search-button::before {
-  font-size: 16px !important; /* Tamanho da fonte */
+  font-size: 1.778vh !important; /* Tamanho da fonte */
   color: black !important; /* Cor do texto */
 }
 
@@ -183,22 +183,22 @@ body {
 
 .icon-glass-container {
   position: fixed !important;
-  bottom: 3mm !important; /* distância de 3mm da parte inferior da tela */
-  right: 3px !important;
+  bottom: 0.813vw !important; /* distância de 3mm da parte inferior da tela */
+  right: 0.215vw !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
   // align-items: center !important;       /* alinha verticalmente os ícones */
   justify-content: center !important;   /* alinha horizontalmente se necessário */
-  gap: 7px !important;
+  gap: 0.502vw !important;
   z-index: 9999 !important;
   overflow: visible !important;         /* garante que nada seja cortado */
   box-sizing: border-box !important; 
-  margin-top: 23cm;
+  margin-top: 96.588vh;
 }
 
 .icon-glass-container button {
-  width: 24px !important;
-  height: 24px  !important;
+  width: 1.721vw !important;
+  height: 2.667vh  !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -208,7 +208,7 @@ body {
   cursor: pointer !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  bottom: 3mm !important;
+  bottom: 1.26vh !important;
   
 }
 
@@ -219,39 +219,39 @@ body {
   display: block !important;
   box-sizing: border-box !important;
   overflow: visible  !important;
-  bottom: 3mm !important;
+  bottom: 1.26vh !important;
 }
 
 .glass-icon {
-  width: 24px !important;
-  height: 24px !important;
+  width: 1.721vw !important;
+  height: 2.667vh !important;
   border-radius: 50% !important;
-  backdrop-filter: blur(6px) saturate(180%) !important;
+  backdrop-filter: blur(0.43vw) saturate(180%) !important;
   background: rgba(255, 255, 255, 0.2) !important;
   box-shadow : 
-     0 4px 10px rgba(255,255,255, 0.3),
-     inset 1px 1px 2px rgba(0,0,0,0.3),
-     inset 2px 2px 2px rgba(0,0,0,0.1) !important;
+     0 0.287vw 0.717vw rgba(255,255,255, 0.3),
+     inset 0.072vw 0.072vw 0.143vw rgba(0,0,0,0.3),
+     inset 0.143vw 0.143vw 0.143vw rgba(0,0,0,0.1) !important;
   display: flex !important;
   justify-content: center  !important;
   align-items: center !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   text-decoration: none !important;
   object-fit: contain !important;
-  padding: 5.67px !important;
+  padding: 0.407vw !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  bottom: 11.34px !important;
+  bottom: 1.26vh !important;
 }
 
 
 .glass-icon:hover {
-  transform: scale(1.4) translateX(-3.7px) !important;
+  transform: scale(1.4) translateX(-0.265vw) !important;
   box-shadow:
-      0 3px 8px rgba(0,0,0,0.4),
-      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-      inset 3px 3px 3px rgba(0,0,0,0.2) !important;
-      bottom: 11.34px !important;
+      0 0.215vw 0.574vw rgba(0,0,0,0.4),
+      inset 0.143vw 0.143vw 0.215vw rgba(255, 255, 255, 0.6),
+      inset 0.215vw 0.215vw 0.215vw rgba(0,0,0,0.2) !important;
+      bottom: 1.26vh !important;
 }
 
 .glass-svg {
@@ -264,7 +264,7 @@ body {
   pointer-events: none !important;
   object-fit: contain !important;
   box-sizing: border-box !important;
-  bottom: 3mm !important;
+  bottom: 1.26vh !important;
   overflow: visible !important;
   position: center;
 }
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
