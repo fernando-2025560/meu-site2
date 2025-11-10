@@ -163,7 +163,7 @@ body {
   font-size: 1.778vh !important; /* Tamanho da fonte */
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
-  top: 1.68vh !important; /* 2mm do topo */
+  top: 4mm !important; /* 4mm do topo */
   right: 23.048vw !important; /* 8.5cm da lateral direita */
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important; /* Fundo transparente */
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
