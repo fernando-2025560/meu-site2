@@ -141,8 +141,8 @@ body {
   /* Estilo da barra de pesquisa */
 .search-bar {
   width: 33.852vw !important; /* 12.5cm de largura */
-  height: 3.36vh !important; /* 8mm de altura */
-  font-size: 1.778vh !important; /* Tamanho da fonte */
+  height: 8mm !important; /* 8mm de altura */
+  font-size: 16px !important; /* Tamanho da fonte */
   border: 0.201vw solid black !important; /* Borda de 7mm */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
   position: absolute !important; 
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
