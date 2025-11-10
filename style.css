@@ -141,7 +141,7 @@ body {
   /* Estilo da barra de pesquisa */
 .search-bar {
   width: 33.852vw !important; /* 12.5cm de largura */
-  height: 8mm !important; /* 5mm de altura */
+  height: 8mm !important; /* 8mm de altura */
   font-size: 16px !important; /* Tamanho da fonte */
   border: 0.201vw solid black !important; /* Borda de 7mm */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
@@ -171,7 +171,7 @@ body {
 
 /* Texto do botão "Pesquisar" */
 .search-button::before {
-  font-size: 1.778vh !important; /* Tamanho da fonte */
+  font-size: 16px !important; /* Tamanho da fonte */
   color: black !important; /* Cor do texto */
 }
 
@@ -284,8 +284,8 @@ body {
   position: fixed !important;
   left: 92.5% !important;
   bottom: 37.79527559px !important;
-  width: 37.79527559px !important;
-  height: 96.77px !important;
+  width: 8.104vw !important;
+  height: 12.556vh !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -293,8 +293,8 @@ body {
 }
 
 #qrcode {
-  width: 113px !important;
-  height: 113px !important;
+  width: 8.104vw !important;
+  height: 12.556vh !important;
   position: fixed;
   bottom: 367.795px;
 }
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
