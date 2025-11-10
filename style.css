@@ -142,13 +142,13 @@ body {
 .search-bar {
   width: 33.852vw !important; /* 12.5cm de largura */
   height: 30.236vh !important; /* 8mm de altura */
-  font-size: 16px !important; /* Tamanho da fonte */
+  font-size: 1.778vh !important; /* Tamanho da fonte */
   border: 0.201vw solid black !important; /* Borda de 7mm */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
   position: absolute !important; 
   top: 0.84vh !important; /* 1mm do topo */
   left: 29.814vw !important; /* 5cm da lateral esquerda */
-  padding-left: 3mm !important; /* "Digite aqui" a 3mm da lateral esquerda */
+  padding-left: 0.813vw !important; /* "Digite aqui" a 3mm da lateral esquerda */
   z-index: 1000000000000000000000 !important;
   background-color: #fff !important; /* Fundo branco */
 }
@@ -157,13 +157,13 @@ body {
 .search-button {
   position: absolute !important;
   height: 30.236vh !important; /* 5mm de altura */
-  width: 3cm !important; /* 3cm de largura */
+  width: 7.087rem !important; /* 3cm de largura */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
   border: 0.201vw solid black !important; /* Borda de 7mm */
-  font-size: 16px !important; /* Tamanho da fonte */
+  font-size: 1.778vh !important; /* Tamanho da fonte */
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
-  top: 2mm !important; /* 3mm do topo */
+  top: 7.559vh !important; /* 3mm do topo */
   right: 23.048vw !important; /* 8.5cm da lateral direita */
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important; /* Fundo transparente */
@@ -171,7 +171,7 @@ body {
 
 /* Texto do botão "Pesquisar" */
 .search-button::before {
-  font-size: 16px !important; /* Tamanho da fonte */
+  font-size: 1.778vh !important; /* Tamanho da fonte */
   color: black !important; /* Cor do texto */
 }
 
@@ -283,7 +283,7 @@ body {
 #qrcode-container {
   position: fixed !important;
   left: 92.5% !important;
-  bottom: 37.79527559px !important;
+  bottom: 4.199vh !important;
   width: 8.104vw !important;
   height: 12.556vh !important;
   display: flex !important;
@@ -296,7 +296,7 @@ body {
   width: 8.104vw !important;
   height: 12.556vh !important;
   position: fixed;
-  bottom: 367.795px;
+  bottom: 40.866vh;
 }
 
 
@@ -316,7 +316,7 @@ body {
 #player iframe {
   width: var(--video-width);
   height: var(--video-height);
-  border-radius: 5px;
+  border-radius: 0.359vw;
   z-index: 1;
   position: relative;
 }
@@ -324,10 +324,10 @@ body {
 /* Legenda com alinhamento e distância de 1.5mm abaixo da imagem */
 .caption-link {
   position: absolute;
-  top: calc(var(--video-top)  + var(--video-height) + 188.97637795275588px);
+  top: calc(var(--video-top)  + var(--video-height) + 20.997vh);
   left: var(--video-left);
   width: var(--video-width);
-  font-size: 13px;
+  font-size: 1.444vh;
   color: #000 !important;
   text-decoration: underline;
   cursor: pointer;
@@ -344,8 +344,8 @@ body {
 
 .video-container {
   position: absolute;
-  top: 86.9291338582677px;
-  left: 37.79527559055118px;
+  top: 9.659vh;
+  left: 2.711vw;
   width: 16.67vw;
   height: 9.38vw;
   border-radius: 5px;
@@ -372,14 +372,14 @@ body {
 /* Legenda */
 .caption-link {
   position: absolute;
-  top: calc(75.59055118110236px + 220px + 5px);
-  left: 37.79527559055118px;
-  font-size: 13px;
+  top: calc(8.399vh + 24.444vh + 0.556vh);
+  left: 2.3622047244094486rem;
+  font-size: 1.444vh;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
   line-height: 1.2;
-  width: 377.95275590551176px;
+  width: 23.62204719485rem;
 }
 
 .caption-link:hover {
@@ -417,7 +417,7 @@ body {
   width: var(--video-width);
   height: var(--video-height);
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 0.2605vw;
   z-index: 2;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -430,7 +430,7 @@ body {
 #player iframe {
   width: var(--video-width);
   height: var(--video-height);
-  border-radius: 5px;
+  border-radius: 0.2605vw;
   z-index: 1;
   position: relative;
 }
@@ -438,10 +438,10 @@ body {
 /* Legenda com alinhamento e distância de 1.5mm abaixo da imagem */
 .caption-link {
   position: absolute;
-  top: calc(var(--video-top)  + var(--video-height) + 188.97637795275588px);
+  top: calc(var(--video-top)  + var(--video-height) + 20.997vh);
   left: var(--video-left);
   width: var(--video-width);
-  font-size: 13px;
+  font-size: 1.444vh;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -1701,6 +1701,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
