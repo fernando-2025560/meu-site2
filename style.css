@@ -143,7 +143,7 @@ body {
   width: 7.617rem !important; /* 12.5cm de largura */
   height: 8mm !important; /* 8mm de altura */
   font-size: 0.711rem !important; /* Tamanho da fonte */
-  border: 1mm solid black !important; /* Borda de 7mm */
+  border: 0.8mm solid black !important; /* Borda de 7mm */
   border-radius: 5px !important; /* Bordas arredondadas */
   position: absolute !important; 
   top: 0.4725rem !important; /* 2mm do topo */
@@ -1682,6 +1682,7 @@ h2 {
     max-width: 100%;
   }
 }
+
 
 
 
