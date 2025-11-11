@@ -15,7 +15,7 @@ body::before {
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important; 
-  min-height: calc(100vh + 16.535rem);
+  min-height: calc(100% + 16.535rem);
 }
 
 
@@ -1703,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
