@@ -141,7 +141,7 @@ body {
   /* Estilo da barra de pesquisa */
 .search-bar {
   width: 33.852vw !important; /* 12.5cm de largura */
-  height: 1cm !important; /* 8mm de altura */
+  height: 8mm !important; /* 8mm de altura */
   font-size: 1.778vh !important; /* Tamanho da fonte */
   border: 0.201vw solid black !important; /* Borda de 7mm */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
@@ -156,7 +156,7 @@ body {
 /* Estilo do botão de pesquisa */
 .search-button {
   position: absolute !important;
-  height: 1cm !important; /* 5mm de altura */
+  height: 8mm !important; /* 5mm de altura */
   width: 7.087rem !important; /* 3cm de largura */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
   border: 0.201vw solid black !important; /* Borda de 7mm */
@@ -1703,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
