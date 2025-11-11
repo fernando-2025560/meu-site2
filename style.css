@@ -290,6 +290,7 @@ body {
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
+ margin-right: 1cm;
 }
 
 #qrcode {
@@ -297,6 +298,7 @@ body {
   height: 12.556vh !important;
   position: fixed;
   bottom: 40.866vh;
+ margin-right: 1cm
 }
 
 
@@ -1701,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
