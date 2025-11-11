@@ -298,7 +298,7 @@ body {
   height: 12.556vh !important;
   position: fixed;
   bottom: 40.866vh;
- margin-right: 1cm;
+ margin-right: 2.907rem;
 }
 
 
@@ -879,7 +879,7 @@ canvas {
 .yt-caption {
   display: block;
   margin-top: 37.795275590551181px;
-  font: 500 13px/1.2 system-ui,  Arial, sans-serif;
+  font: 500 2.907rem/1.2 system-ui,  Arial, sans-serif;
   text-decoration: none;
   color: #000;
   width: 100%;
@@ -1589,106 +1589,85 @@ h2 {
 
 
 
-/* Responsivo (opcional) */
-@media (max-width: 9.682rem) {
+/* ============================= */
+/* 📱 RESPONSIVIDADE EM LARGURA  */
+/* ============================= */
+
+/* Extra large → desktop full (até ~1600px) */
+@media (max-width: 100rem) {
+  .video-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Large → notebooks (até ~1420px) */
+@media (max-width: 88.75rem) {
+  .video-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Medium → tablets grandes (até ~1200px) */
+@media (max-width: 75rem) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small → tablets pequenos / smartphones grandes (até ~825px) */
+@media (max-width: 51.5625rem) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
   #customYT,
   #videoCaption {
     width: 100%;
   }
 }
 
-
-
-
-/* Responsividade */
-@media (max-width: 16.524rem) {
-  .video-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 27.177rem) {
-  .video-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-
-
-
-
-
-/* ============================= */
-/* 📱 Responsividade em largura  */
-/* ============================= */
-
-/* Extra large → desktop full */
-@media (max-width: 18.75rem) { /* ~1600px */
-  .video-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* Large → notebooks */
-@media (max-width: 16.640rem) { /* ~1420px */
-  .video-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Medium → tablets grandes */
-@media (max-width: 14.0625rem) { /* ~1200px */
-  .video-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Small → tablets pequenos / smartphones grandes */
-@media (max-width: 9.682rem) { /* ~825px */
-  .video-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Extra small → smartphones menores */
-@media (max-width: 6.445rem) { /* ~550px */
-  .header,
-   {
+/* Extra small → smartphones menores (até ~550px) */
+@media (max-width: 34.375rem) {
+  .header {
     flex-direction: column;
     text-align: center;
   }
 }
 
 /* ============================= */
-/* 📏 Responsividade em altura   */
+/* 📏 RESPONSIVIDADE EM ALTURA   */
 /* ============================= */
 
-@media (max-height: 33.703rem) { /* ~900px */
+/* Alturas menores (opcional) */
+@media (max-height: 56.25rem) { /* ~900px */
   #customYT {
     height: 32rem;
   }
 }
 
-@media (max-height: 29.419rem) { /* ~780px */
+@media (max-height: 48.75rem) { /* ~780px */
   #videoCaption {
     font-size: 0.9em;
   }
 }
 
-@media (max-height: 27.177rem) { /* ~720px */
+@media (max-height: 45rem) { /* ~720px */
   .video-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-height: 23.333rem) { /* ~620px */
+@media (max-height: 38.75rem) { /* ~620px */
   #customYT {
     height: 24rem;
   }
 }
 
-@media screen and (orientation: portrait), screen and (orientation: landscape) {
+/* ============================= */
+/* 🌐 ORIENTAÇÃO E AJUSTES GERAIS */
+/* ============================= */
+@media screen and (orientation: portrait),
+       screen and (orientation: landscape) {
   html, body {
     width: 100%;
     height: 100%;
@@ -1699,10 +1678,11 @@ h2 {
   }
 
   * {
-      box-sizing: inherit;
-      max-width: 100%;
+    box-sizing: inherit;
+    max-width: 100%;
   }
 }
+
 
 
 
