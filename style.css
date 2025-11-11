@@ -23,22 +23,22 @@ body::before {
 
 .search-container {
     position: absolute !important;
-    top: 0.1218026796589525vh !important;  /* Distância do topo */
-    left: 43.033vw !important;
-    transform: translateX(-49.129vw) !important;
+    top: 0.0487rem !important;  /* Distância do topo */
+    left: 9.682rem !important;
+    transform: translateX(-11.054rem) !important;
     display: flex !important;
     align-items: center !important;
 }
 
 .content {
-    padding: 1366vw !important;
+    padding: 307.35rem !important;
 }
 
 
 .media {
     display: flex !important;
     justify-content: space-around !important;
-    margin-bottom: 1366vw !important;
+    margin-bottom: 307.35rem !important;
 }
 
 
@@ -56,7 +56,7 @@ body {
 
 header{
     background-color: transparent !important;
-    height: 7.778vh !important;
+    height: 3.111rem !important;
     width: 17.428rem !important;
 }
 
@@ -140,7 +140,7 @@ body {
   
   /* Estilo da barra de pesquisa */
 .search-bar {
-  width: 33.852vw !important; /* 12.5cm de largura */
+  width: 7.617rem !important; /* 12.5cm de largura */
   height: 0.94488rem !important; /* 8mm de altura */
   font-size: 0.711rem !important; /* Tamanho da fonte */
   border: 0.0452rem solid black !important; /* Borda de 7mm */
@@ -159,12 +159,12 @@ body {
   height: 1.18110rem !important; /* 5mm de altura */
   width: 7.087rem !important; /* 3cm de largura */
   border-radius: 0.258rem !important; /* Bordas arredondadas */
-  border: 0.201vw solid black !important; /* Borda de 7mm */
-  font-size:  1.778vh;
+  border: 0.0452rem solid black !important; /* Borda de 7mm */
+  font-size:  0.7112rem;
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
   top: 0.4725rem !important; /* 2mm do topo */
-  right: 8.7cm !important; /* 8.5cm da lateral direita */
+  right: 20.5538rem !important; /* 8.5cm da lateral direita */
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important; /* Fundo transparente */
 }
@@ -189,7 +189,7 @@ body {
   flex-wrap: nowrap !important;         /* impede quebra de linha */
   // align-items: center !important;       /* alinha verticalmente os ícones */
   justify-content: center !important;   /* alinha horizontalmente se necessário */
-  gap: 0.502vw !important;
+  gap: 0.11295rem !important;
   z-index: 9999 !important;
   overflow: visible !important;         /* garante que nada seja cortado */
   box-sizing: border-box !important; 
@@ -197,8 +197,8 @@ body {
 }
 
 .icon-glass-container button {
-  width: 1.721vw !important;
-  height: 2.667vh  !important;
+  width: 0.3872rem !important;
+  height: 1.067rem  !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -208,7 +208,7 @@ body {
   cursor: pointer !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  bottom: 1.26vh !important;
+  bottom: 0.504rem !important;
   
 }
 
@@ -219,39 +219,39 @@ body {
   display: block !important;
   box-sizing: border-box !important;
   overflow: visible  !important;
-  bottom: 1.26vh !important;
+  bottom: 0.504rem !important;
 }
 
 .glass-icon {
-  width: 1.721vw !important;
-  height: 2.667vh !important;
+  width: 0.3872rem !important;
+  height: 1.067rem !important;
   border-radius: 50% !important;
   backdrop-filter: blur(0.0967rem) saturate(180%) !important;
   background: rgba(255, 255, 255, 0.2) !important;
   box-shadow : 
-     0 0.287vw 0.717vw rgba(255,255,255, 0.3),
-     inset 0.072vw 0.072vw 0.143vw rgba(0,0,0,0.3),
-     inset 0.143vw 0.143vw 0.143vw rgba(0,0,0,0.1) !important;
+     0 0.0646rem  0.1613rem rgba(255,255,255, 0.3),
+     inset 0.0162rem 0.0162rem 0.0322rem rgba(0,0,0,0.3),
+     inset 0.0322rem 0.0322rem 0.0322rem rgba(0,0,0,0.1) !important;
   display: flex !important;
   justify-content: center  !important;
   align-items: center !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   text-decoration: none !important;
   object-fit: contain !important;
-  padding: 0.407vw !important;
+  padding: 0.0916rem !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  bottom: 1.26vh !important;
+  bottom: 0.504rem !important;
 }
 
 
 .glass-icon:hover {
-  transform: scale(1.4) translateX(-0.265vw) !important;
+  transform: scale(1.4) translateX(-0.0596rem) !important;
   box-shadow:
       0 0.215vw 0.574vw rgba(0,0,0,0.4),
       inset 0.143vw 0.143vw 0.215vw rgba(255, 255, 255, 0.6),
       inset 0.215vw 0.215vw 0.215vw rgba(0,0,0,0.2) !important;
-      bottom: 1.26vh !important;
+      bottom: 0.504rem !important;
 }
 
 .glass-svg {
@@ -264,7 +264,7 @@ body {
   pointer-events: none !important;
   object-fit: contain !important;
   box-sizing: border-box !important;
-  bottom: 1.26vh !important;
+  bottom: 0.504rem !important;
   overflow: visible !important;
   position: center;
 }
@@ -1703,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
