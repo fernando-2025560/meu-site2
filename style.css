@@ -146,7 +146,7 @@ body {
   border: 0.201vw solid black !important; /* Borda de 7mm */
   border-radius: 1.148vw !important; /* Bordas arredondadas */
   position: absolute !important; 
-  top: 2mm !important; /* 1mm do topo */
+  top: 2mm !important; /* 2mm do topo */
   left: 29.814vw !important; /* 5cm da lateral esquerda */
   padding-left: 0.813vw !important; /* "Digite aqui" a 3mm da lateral esquerda */
   z-index: 1000000000000000000000 !important;
@@ -164,7 +164,7 @@ body {
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
   top: 2mm !important; /* 2mm do topo */
-  right: 23.048vw !important; /* 8.5cm da lateral direita */
+  right: 2.1023619rem !important; /* 8.5cm da lateral direita */
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important; /* Fundo transparente */
 }
@@ -1703,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
