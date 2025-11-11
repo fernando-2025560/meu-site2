@@ -93,7 +93,7 @@ header {
 
   
   h1 {
-    left: 7.602vw !important;
+    left: 3.1cm !important;
     z-index: 9999999999999 !important;
     color: #000 !important;
   }
@@ -1703,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
