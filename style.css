@@ -164,7 +164,7 @@ body {
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
   top: 2mm !important; /* 2mm do topo */
-  right: 2.1023619rem !important; /* 8.5cm da lateral direita */
+  right: 8.7cm !important; /* 8.5cm da lateral direita */
   z-index: 10000000000000000000000 !important;
   background-color: transparent !important; /* Fundo transparente */
 }
@@ -1703,6 +1703,7 @@ h2 {
       max-width: 100%;
   }
 }
+
 
 
 
