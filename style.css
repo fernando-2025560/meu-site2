@@ -186,8 +186,8 @@ body {
 
 .icon-glass-container {
   position: absolute !important;
-  top:  24cm !important;
-  right:  19cm !important;
+  top:  4cm !important;
+  right:  19.5cm !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
   align-items: flat !important;       /* alinha verticalmente os ícones */
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
