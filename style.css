@@ -138,15 +138,15 @@ body {
     display: flex !important;
   }
   
-  .search-bar {
+     .search-bar {
               width: 34.8vw !important;
-              height: 8mm !important;
-              padding-left: 0.36875rem !important;
-              font-size: 1rem !important;
-              border: 1px solid black !important;
-              border-radius: 5px !important;
+              height: 4.7vh !important;
+              padding-left: 5.9px !important;
+              font-size: 16px !important;
+              border: 2.9px solid black !important;
+              border-radius: 16px !important;
               position: absolute !important;
-              top: 0.47244rem !important;
+              top: 7.6px !important;
               left: 50% !important;
               transform: translateX(-50%) !important;
               z-index: 99 !important;
@@ -154,21 +154,21 @@ body {
         
             .search-button {
               width: 8.4vw;
-              height: 8mm !important;
-              font-size: 1rem;
-              border: 1px solid black;
-              border-left: 0.5625rem;
-              border-radius: 5px;
+              height: 4.7vh;
+              font-size: 16px;
+              border: 2.9px solid black;
+              border-left: 9px;
+              border-radius: 16px;
               color: black;
               cursor: pointer;
-              margin-left: 6cm;
+              margin-left: 23px;
               background-color: transparent;
               position: absolute;
-              top: 0.47244rem;
+              top: 7.6px;
               z-index: 99;
-              right: 21.25984rem;
+              right: 329.7px;
             }
-
+        
 /* Texto do botão "Pesquisar" */
 .search-button::before {
   font-size: 0.711rem !important; /* Tamanho da fonte */
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
