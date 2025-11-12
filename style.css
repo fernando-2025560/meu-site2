@@ -201,7 +201,7 @@ body {
 
 /* === Botões individuais === */
 .icon-glass-container button {
- top: 25cm;
+ top: 25cm !important;
  width: 1.7569546120058566vw !important;
   height: 3.65296803652968vh !important;
   display: flex !important;
@@ -297,7 +297,7 @@ body {
 
 #qrcode-container {
   position: fixed; /* garante que o bloco fique fixo na tela */
-  right: 1cm ; /* distância da lateral direita */
+  right: 2cm ; /* distância da lateral direita */
   top: 12.991875rem  ;  /* distância do topo da tela */
   width: 8.104vw ;
   height: 12.556vh ;
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
