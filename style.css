@@ -180,19 +180,20 @@ body {
     border-color: black !important;
 }
 
+}
 .icon-glass-container {
-  position: fixed !important;     /* fixa o container na tela */
-  bottom: 2cm !important;       /* 5 mm = 0.5 cm da parte inferior da tela */
-  right: 15cm !important;          /* 1 cm da lateral direita */
+  position: fixed !important;
+  top:  93.07458143074581vh !important;
+  right:  0.21961932650073207vw !important;
   display: flex !important;
-  flex-wrap: nowrap !important;   /* impede quebra de linha */
-  justify-content: center !important; /* alinha horizontalmente se necessário */
-  gap: 0.11295rem !important;
+  flex-wrap: nowrap !important;         /* impede quebra de linha */
+  align-items: center !important;       /* alinha verticalmente os ícones */
+  justify-content: center !important;   /* alinha horizontalmente se necessário */
+  gap: 0.5124450951683748vw !important;
   z-index: 9999 !important;
-  overflow: visible !important;   /* garante que nada seja cortado */
-  box-sizing: border-box !important; 
-
-  /* Removido margin-top e comentário incorreto */
+  overflow: visible !important;         /* garante que nada seja cortado */
+  box-sizing: border-box !important;
+  
 }
 
 
@@ -1687,6 +1688,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
