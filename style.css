@@ -184,7 +184,7 @@ body {
 
 .icon-glass-container {
   position: fixed !important;
-  top:  193.07458143074581vh !important;
+  top:  23.07458143074581vh !important;
   right:  0.21961932650073207vw !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
@@ -1687,6 +1687,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
