@@ -190,7 +190,7 @@ body {
   right:  0.21961932650073207vw !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
-  align-items: center !important;       /* alinha verticalmente os ícones */
+  align-items: flat !important;       /* alinha verticalmente os ícones */
   justify-content: center !important;   /* alinha horizontalmente se necessário */
   gap: 0.5124450951683748vw !important;
   z-index: 9999 !important;
@@ -1702,6 +1702,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
