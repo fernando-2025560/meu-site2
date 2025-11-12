@@ -282,19 +282,19 @@ body {
 
 #qrcode-container {
   position: fixed; /* garante que o bloco fique fixo na tela */
-  right: 1cm !important; /* distância da lateral direita */
-  top: 15cm !important;  /* distância do topo da tela */
-  width: 8.104vw !important;
-  height: 12.556vh !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
+  right: 1cm ; /* distância da lateral direita */
+  top: 15cm ;  /* distância do topo da tela */
+  width: 8.104vw ;
+  height: 12.556vh ;
+  display: flex ;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center ;
 }
 
 #qrcode {
-  width: 8.104vw !important;
-  height: 12.556vh !important;
+  width: 8.104vw ;
+  height: 12.556vh;
   bottom: 50%;
  margin-right: 5%;
 }
@@ -1687,6 +1687,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
