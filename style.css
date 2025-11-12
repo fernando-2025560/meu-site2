@@ -281,15 +281,15 @@ body {
 
 
 #qrcode-container {
-  right: 5% !important;
-  bottom: 4.199vh !important;
+  position: fixed; /* garante que o bloco fique fixo na tela */
+  right: 1cm !important; /* distância da lateral direita */
+  top: 15cm !important;  /* distância do topo da tela */
   width: 8.104vw !important;
   height: 12.556vh !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
- margin-right: 1cm;
 }
 
 #qrcode {
@@ -1687,6 +1687,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
