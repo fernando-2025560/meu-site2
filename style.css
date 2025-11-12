@@ -182,7 +182,7 @@ body {
 
 .icon-glass-container {
   position: fixed !important;     /* fixa o container na tela */
-  bottom: 20cm !important;       /* 5 mm = 0.5 cm da parte inferior da tela */
+  bottom: 2cm !important;       /* 5 mm = 0.5 cm da parte inferior da tela */
   right: 15cm !important;          /* 1 cm da lateral direita */
   display: flex !important;
   flex-wrap: nowrap !important;   /* impede quebra de linha */
@@ -1687,6 +1687,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
