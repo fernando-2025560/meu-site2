@@ -139,36 +139,34 @@ body {
   }
   
      .search-bar {
-              width: 34.8vw !important;
-              height: 4.7vh !important;
-              padding-left: 5.9px !important;
-              font-size: 16px !important;
-              border: 2.9px solid black !important;
-              border-radius: 16px !important;
-              position: absolute !important;
-              top: 7.6px !important;
-              left: 50% !important;
-              transform: translateX(-50%) !important;
-              z-index: 99 !important;
-         }
-        
-            .search-button {
-              width: 8.4vw;
-              height: 4.7vh;
-              font-size: 16px;
-              border: 2.9px solid black;
-              border-left: 4cm;
-              border-radius: 16px;
-              color: black;
-              cursor: pointer;
-              margin-left: 23px;
-              background-color: transparent;
-              position: absolute;
-              top: 7.6px;
-              z-index: 99;
-              right: 329.7px;
-            }
-        
+  width: 43vw; /* equivalente a ~11cm */
+  height: 2vh; /* equivalente a ~5mm */
+  padding-left: 0.5vw;
+  font-size: 1rem;
+  border: 0.2vh solid black;
+  border-radius: 1rem;
+  position: absolute;
+  top: 2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+
+.search-button {
+  width: 12vw; /* equivalente a ~3cm */
+  height: 2vh; /* equivalente a ~5mm */
+  font-size: 1rem;
+  border: 0.2vh solid black;
+  border-radius: 1rem;
+  color: black;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  top: 2vh;
+  right: calc(50% - 21.5vw); /* mantém alinhamento relativo à barra */
+  z-index: 99;
+}
+   
 /* Texto do botão "Pesquisar" */
 .search-button::before {
   font-size: 0.711rem !important; /* Tamanho da fonte */
@@ -1812,6 +1810,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
