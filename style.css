@@ -184,17 +184,16 @@ body {
 
 .icon-glass-container {
   position: fixed !important;
-  top:  93.07458143074581vh !important;
-  right:  0.21961932650073207vw !important;
+  bottom: 5mm !important;   /* 5mm acima da borda inferior */
+  right: 1cm !important;    /* 1cm afastado da lateral direita */
   display: flex !important;
-  flex-wrap: nowrap !important;         /* impede quebra de linha */
-  align-items: center !important;       /* alinha verticalmente os ícones */
-  justify-content: center !important;   /* alinha horizontalmente se necessário */
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
   gap: 0.5124450951683748vw !important;
   z-index: 9999 !important;
-  overflow: visible !important;         /* garante que nada seja cortado */
+  overflow: visible !important;
   box-sizing: border-box !important;
-  
 }
 
 
@@ -1689,6 +1688,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
