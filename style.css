@@ -19,8 +19,6 @@ body::before {
 }
 
 
-
-
 .search-container {
     position: absolute !important;
     top: 0.0487rem !important;  /* Distância do topo */
@@ -1810,6 +1808,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
