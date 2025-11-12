@@ -184,33 +184,35 @@ body {
 
 
 
+
 .icon-glass-container {
-  position: fixed !important;               /* fixa na tela */
-  bottom: 2mm !important;                   /* 2mm acima da borda inferior */
-  right: 19.5cm !important;                 /* mantém o deslocamento lateral que você já tinha */
+  position: fixed !important;
+  top:  93.07458143074581vh !important;
+  right:  0.21961932650073207vw !important;
   display: flex !important;
-  flex-wrap: nowrap !important;             /* impede quebra de linha */
-  align-items: center !important;           /* corrige valor inválido "flat" */
-  justify-content: center !important;       /* centraliza ícones horizontalmente se necessário */
+  flex-wrap: nowrap !important;         /* impede quebra de linha */
+  align-items: center !important;       /* alinha verticalmente os ícones */
+  justify-content: center !important;   /* alinha horizontalmente se necessário */
   gap: 0.5124450951683748vw !important;
   z-index: 9999 !important;
-  overflow: visible !important;
+  overflow: visible !important;         /* garante que nada seja cortado */
   box-sizing: border-box !important;
+  
 }
 
 .icon-glass-container button {
   width: 1.7569546120058566vw !important;
-  height: 3.65296803652968vh !important;
+  height: 3.65296803652968vh  !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: center !important;
-  background: transparent !important;
+    background: transparent !important; 
   border: none !important;
-  padding: 0 !important;
+  padding: 0  !important;
   cursor: pointer !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-}
+  top: 93.07458143074581vh !important;
+  }
 
 .icon-glass-container img {
   width: 100% !important;
@@ -218,22 +220,22 @@ body {
   object-fit: contain !important;
   display: block !important;
   box-sizing: border-box !important;
-  overflow: visible !important;
+  overflow: visible  !important;
+  top: 93.07458143074581vh !important;
 }
 
-/* ==== Efeito de vidro ==== */
 .glass-icon {
   width: 2.562225475841874vw !important;
   height: 5.327245053272451vh !important;
   border-radius: 50% !important;
-  backdrop-filter: blur(0.43923865300146414vw) saturate(180%) !important;
+  backdrop-filter: blur0.43923865300146414vw) saturate(180%) !important;
   background: rgba(255, 255, 255, 0.2) !important;
-  box-shadow: 
-     0 0.29282576866764276vw 0.7320644216691069vw rgba(255,255,255,0.3),
-     inset 0.07320644216691069vw 0.07320644216691069vw 0.14641288433382138vw rgba(0,0,0,0.3),
-     inset 0.14641288433382138vw 0.14641288433382138vw 0.14641288433382138vw rgba(0,0,0,0.1) !important;
+  box-shadow : 
+     0 0.29282576866764276vw      0.7320644216691069vw   rgba(255,255,255, 0.3),
+     inset 0.07320644216691069vw       0.07320644216691069vw       0.14641288433382138vw   rgba(0,0,0,0.3),
+     inset 0.14641288433382138vw     0.14641288433382138vw       0.14641288433382138vw rgba(0,0,0,0.1) !important;
   display: flex !important;
-  justify-content: center !important;
+  justify-content: center  !important;
   align-items: center !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   text-decoration: none !important;
@@ -241,18 +243,19 @@ body {
   padding: 0.4150805270863836vw !important;
   box-sizing: border-box !important;
   overflow: visible !important;
+  top: 93.07458143074581vh     !important;
 }
 
-/* ==== Efeito ao passar o mouse ==== */
+
 .glass-icon:hover {
   transform: scale(1.4) translateX(-0.2708638360175695vw) !important;
   box-shadow:
-      0 0.21961932650073207vw 0.5856515373352855vw rgba(0,0,0,0.4),
-      inset 0.14641288433382138vw 0.14641288433382138vw 0.21961932650073207vw rgba(255,255,255,0.6),
-      inset 0.21961932650073207vw 0.21961932650073207vw 0.21961932650073207vw rgba(0,0,0,0.2) !important;
+      0 0.21961932650073207vw       0.5856515373352855vw       rgba(0,0,0,0.4),
+      inset  0.14641288433382138vw      0.14641288433382138vw      0.21961932650073207vw rgba(255, 255, 255, 0.6),
+      inset  0.21961932650073207vw      0.21961932650073207vw      0.21961932650073207vw   rgba(0,0,0,0.2) !important;
+      top: 93.07458143074581vh !important;
 }
 
-/* ==== SVG dentro do botão de vidro ==== */
 .glass-svg {
   width: 78.6% !important;
   height: 78.6% !important;
@@ -263,9 +266,10 @@ body {
   pointer-events: none !important;
   object-fit: contain !important;
   box-sizing: border-box !important;
+  top: 93.07458143074581vh !important;
   overflow: visible !important;
+  position: center;
 }
-
 
 
 .glass-icon:nth-child(1)  .glass-svg path { fill: #000000 !important; }  
@@ -1808,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
