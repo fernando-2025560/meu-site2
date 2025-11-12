@@ -143,7 +143,7 @@ body {
   width: 7.617rem !important; /* 12.5cm de largura */
   height: 5mm !important; /* 5mm de altura */
   font-size: 0.712rem !important; /* Tamanho da fonte */
-  border: 1mm solid black !important; /* Borda de 1mm */
+  border: 0.1mm solid black !important; /* Borda de 1mm */
   border-radius: 5px !important; /* Bordas arredondadas */
   position: absolute !important; 
   top: 0.4725rem !important; /* 2mm do topo */
@@ -159,7 +159,7 @@ body {
   height: 5mm !important; /* 8mm de altura */
   width: 7.087rem !important; /* 3cm de largura */
   border-radius: 5px !important; /* Bordas arredondadas */
-  border: 1mm solid black !important; /* Borda de 1mm */
+  border: 0.1mm solid black !important; /* Borda de 1mm */
   font-size:  0.7112rem;
   text-align: center !important; /* Alinha o texto ao centro */
   cursor: pointer !important; /* Cursor como ponteiro */
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
