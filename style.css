@@ -141,7 +141,7 @@ body {
   /* Estilo da barra de pesquisa */
 .search-bar {
   width: 7.617rem !important; /* 12.5cm de largura */
-  height: 8mm !important; /* 8mm de altura */
+  height: 5mm !important; /* 5mm de altura */
   font-size: 0.712rem !important; /* Tamanho da fonte */
   border: 1mm solid black !important; /* Borda de 1mm */
   border-radius: 5px !important; /* Bordas arredondadas */
@@ -156,7 +156,7 @@ body {
 /* Estilo do botão de pesquisa */
 .search-button {
   position: absolute !important;
-  height: 8mm !important; /* 8mm de altura */
+  height: 5mm !important; /* 8mm de altura */
   width: 7.087rem !important; /* 3cm de largura */
   border-radius: 5px !important; /* Bordas arredondadas */
   border: 1mm solid black !important; /* Borda de 1mm */
@@ -1707,37 +1707,109 @@ h2 {
 
 
 
-/* ===== Estilo universal dos ícones ===== */
+/* ====== Contêiner principal dos ícones com efeito vidro ====== */
+.icon-glass-container {
+  position: fixed !important;
+  top: clamp(20vh, 24cm, 25vh) !important;
+  right: clamp(0.8mm, 1cm, 1.5cm) !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5vw !important;
+  z-index: 9999 !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s ease !important;
+}
+
+/* ====== Botões individuais ====== */
+.icon-glass-container button {
+  width: 1.8vw !important;
+  height: 3.6vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: transparent !important; 
+  border: none !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+/* ====== Imagem ou SVG dentro do botão ====== */
+.icon-glass-container img,
+.icon-glass-container svg {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  display: block !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+  pointer-events: none !important;
+}
+
+/* ====== Ícones com efeito de vidro ====== */
+.glass-icon {
+  width: 2.6vw !important;
+  height: 5.3vh !important;
+  border-radius: 50% !important;
+  backdrop-filter: blur(0.4vw) saturate(180%) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow:
+    0 0.3vw 0.7vw rgba(255, 255, 255, 0.3),
+    inset 0.07vw 0.07vw 0.15vw rgba(0,0,0,0.3),
+    inset 0.15vw 0.15vw 0.15vw rgba(0,0,0,0.1) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  padding: 0.4vw !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+/* ====== Hover ====== */
+.glass-icon:hover {
+  transform: scale(1.2) translateX(-0.3vw) !important;
+  box-shadow:
+    0 0.2vw 0.6vw rgba(0,0,0,0.4),
+    inset 0.15vw 0.15vw 0.2vw rgba(255, 255, 255, 0.6),
+    inset 0.2vw 0.2vw 0.2vw rgba(0,0,0,0.2) !important;
+}
+
+/* ====== SVG dentro do vidro ====== */
+.glass-svg {
+  width: 80% !important;
+  height: 80% !important;
+  display: block !important;
+  margin: 0 !important;
+  transition: transform 0.3s ease !important;
+  pointer-events: none !important;
+  object-fit: contain !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+/* ===== Estilo universal dos SVGs ===== */
 svg {
- display: inline-block;
- margin: clamp(0.8mm, 0.15vw, 1mm);
-vertical-align: all 0.3s ease;
+  display: inline-block;
+  margin: clamp(0.8mm, 0.15vw, 1mm);
+  vertical-align: middle;
+  transition: all 0.3s ease;
 }
 
-/* ===== Contêiner que agrupa todos os ícones ===== */
-.icons {
-  position: fixed;
-  right: clamp(0.8mm, 0.15vw, 1mm);
-  top: clamp(20vh, 24cm, 25vh);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: clamp(0.8mm, 0.15vw, 1mm);
-  transition:  all 0.3s ease;
-}
-
-/*  ====== Orientação horizontal (paisagem) ===== */
+/* ===== Responsividade do contêiner ===== */
 @media (orientation: landscape) {
-   .icons {
-      flex-direction: row;
-   }
+  .icon-glass-container {
+    flex-direction: row !important;
+  }
 }
 
-/* ===== Orientação vertical (retrato) =====  */
 @media (orientation: portrait) {
-  .icons {
-    flex-direction: column;
+  .icon-glass-container {
+    flex-direction: column !important;
   }
 }
 
