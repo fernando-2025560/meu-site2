@@ -183,8 +183,8 @@ body {
 }
 .icon-glass-container {
   position: fixed !important;
-  top:  15cm !important;
-  margin-right:  1cm !important;
+  top:  1cm !important;
+  margin-right:  15cm !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
   align-items: center !important;       /* alinha verticalmente os ícones */
@@ -1688,6 +1688,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
