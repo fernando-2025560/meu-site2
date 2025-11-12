@@ -144,7 +144,7 @@ body {
   padding-left:  0.898021308980213vh !important;
   font-size:  2.43531202435312vh !important;
   border: 1mm solid black !important;
-  border-radius: 15px !important;
+  border-radius: 5px !important;
   position: absolute !important;
   top:  11.505411138676157vh !important;
   left: 50%  !important;
@@ -157,7 +157,7 @@ body {
 .search-button {
   position: absolute !important;
   height: 0.23625rem !important;
-  border-radius:  15px !important;
+  border-radius:  5px !important;
   border: 1mm solid black !important;
   font-size:  2.43531202435312vh  !important;
   cursor: pointer !important;
@@ -1808,6 +1808,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
