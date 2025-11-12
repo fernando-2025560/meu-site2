@@ -197,12 +197,12 @@ body {
   z-index: 9999 !important;
   overflow: visible !important;             /* garante que nada seja cortado */
   box-sizing: border-box !important;
- top: 22cm;
 }
 
 /* === Botões individuais === */
 .icon-glass-container button {
-  width: 1.7569546120058566vw !important;
+ top: 25cm;
+ width: 1.7569546120058566vw !important;
   height: 3.65296803652968vh !important;
   display: flex !important;
   align-items: center !important;
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
