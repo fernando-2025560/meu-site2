@@ -15,7 +15,7 @@ body::before {
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important; 
-  min-height: calc(100% + 16.535rem);
+  min-height: calc(100% + 19.535rem);
 }
 
 
@@ -1689,6 +1689,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
