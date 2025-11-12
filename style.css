@@ -157,7 +157,7 @@ body {
               height: 4.7vh;
               font-size: 16px;
               border: 2.9px solid black;
-              border-left: 9px;
+              border-left: 4cm;
               border-radius: 16px;
               color: black;
               cursor: pointer;
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
