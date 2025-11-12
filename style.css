@@ -283,7 +283,7 @@ body {
 #qrcode-container {
   position: fixed; /* garante que o bloco fique fixo na tela */
   right: 1cm ; /* distância da lateral direita */
-  top: 4cm ;  /* distância do topo da tela */
+  top: 5.5cm ;  /* distância do topo da tela */
   width: 8.104vw ;
   height: 12.556vh ;
   display: flex ;
@@ -1687,6 +1687,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
