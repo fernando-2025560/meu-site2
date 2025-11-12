@@ -184,8 +184,8 @@ body {
 
 .icon-glass-container {
   position: fixed !important;
-  bottom: 5mm !important;   /* 5mm acima da borda inferior */
-  right: 19cm !important;    /* 19cm afastado da lateral direita */
+  bottom: 19cm !important;   /* 19cm acima da borda inferior */
+  right: 5mm !important;    /* 5mm afastado da lateral direita */
   display: flex !important;
   flex-wrap: nowrap !important;
   align-items: center !important;
@@ -1688,6 +1688,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
