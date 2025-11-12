@@ -197,6 +197,7 @@ body {
   z-index: 9999 !important;
   overflow: visible !important;             /* garante que nada seja cortado */
   box-sizing: border-box !important;
+ top: 22cm;
 }
 
 /* === Botões individuais === */
@@ -1811,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
