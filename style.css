@@ -143,7 +143,7 @@ body {
               height: 8mm !important;
               padding-left: 0.36875rem !important;
               font-size: 1rem !important;
-              border: 1.89px solid black !important;
+              border: 1px solid black !important;
               border-radius: 5px !important;
               position: absolute !important;
               top: 0.47244rem !important;
@@ -156,12 +156,12 @@ body {
               width: 8.4vw;
               height: 8mm !important;
               font-size: 1rem;
-              border:.89px solid black;
+              border: 1px solid black;
               border-left: 0.5625rem;
               border-radius: 5px;
               color: black;
               cursor: pointer;
-              margin-left: 30.472875rem;
+              margin-left: 6cm;
               background-color: transparent;
               position: absolute;
               top: 0.47244rem;
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
