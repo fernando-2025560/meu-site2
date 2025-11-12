@@ -180,20 +180,22 @@ body {
     border-color: black !important;
 }
 
-
 .icon-glass-container {
-   bottom: 3cm !important; /* distância de 3mm da parte inferior da tela */
-  right: 0.0483rem !important;
+  position: fixed !important;     /* fixa o container na tela */
+  bottom: 0.5cm !important;       /* 5 mm = 0.5 cm da parte inferior da tela */
+  right: 1cm !important;          /* 1 cm da lateral direita */
+
   display: flex !important;
-  flex-wrap: nowrap !important;         /* impede quebra de linha */
-  // align-items: center !important;       /* alinha verticalmente os ícones */
-  justify-content: center !important;   /* alinha horizontalmente se necessário */
+  flex-wrap: nowrap !important;   /* impede quebra de linha */
+  justify-content: center !important; /* alinha horizontalmente se necessário */
   gap: 0.11295rem !important;
   z-index: 9999 !important;
-  overflow: visible !important;         /* garante que nada seja cortado */
+  overflow: visible !important;   /* garante que nada seja cortado */
   box-sizing: border-box !important; 
-  margin-top: 19cm;
+
+  /* Removido margin-top e comentário incorreto */
 }
+
 
 .icon-glass-container button {
   width: 0.3872rem !important;
@@ -1686,6 +1688,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
