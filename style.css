@@ -307,7 +307,7 @@ body {
   width: 8.104vw ;
   height: 12.556vh;
   bottom: 50%;
- margin-right: 5%;
+ margin-right: 1cm;
 }
 
 
@@ -1808,6 +1808,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
