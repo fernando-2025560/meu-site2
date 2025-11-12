@@ -257,8 +257,8 @@ body {
 }
 
 .glass-svg {
-  width: 78.6% !important;
-  height: 78.6% !important;
+  width: 8.6% !important;
+  height: 8.6% !important;
   padding: 0 !important;
   margin: 0 !important;
   display: block !important;
@@ -1689,6 +1689,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
