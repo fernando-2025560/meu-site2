@@ -187,7 +187,7 @@ body {
 
 .icon-glass-container {
   position: fixed !important;
-  top:  93.07458143074581vh !important;
+  top:  22cm !important;
   right:  0.21961932650073207vw !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
@@ -211,7 +211,7 @@ body {
   cursor: pointer !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  top: 93.07458143074581vh !important;
+  top: 22cm !important;
   }
 
 .icon-glass-container img {
@@ -243,7 +243,7 @@ body {
   padding: 0.4150805270863836vw !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  top: 93.07458143074581vh     !important;
+  top: 22cm     !important;
 }
 
 
@@ -266,7 +266,7 @@ body {
   pointer-events: none !important;
   object-fit: contain !important;
   box-sizing: border-box !important;
-  top: 93.07458143074581vh !important;
+  top: 22cm !important;
   overflow: visible !important;
   position: center;
 }
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
