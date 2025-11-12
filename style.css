@@ -281,7 +281,7 @@ body {
 
 
 #qrcode-container {
-  left: 15% !important;
+  right: 15% !important;
   bottom: 4.199vh !important;
   width: 8.104vw !important;
   height: 12.556vh !important;
@@ -1687,6 +1687,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
