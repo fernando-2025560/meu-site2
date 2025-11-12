@@ -139,35 +139,35 @@ body {
   }
   
   .search-bar {
-  width: 28.34625rem  !important;
-  height: 0.23625rem !important;
-  padding-left:  0.898021308980213vh !important;
-  font-size:  2.43531202435312vh !important;
-  border: 1mm solid black !important;
-  border-radius: 5px !important;
-  position: absolute !important;
-  top:  11.505411138676157vh !important;
-  left: 50%  !important;
-  transform: translateX(-50%) !important;
-  z-index: 1000000000000000000000 !important;
-}
-
-
-/* Estilo do botão */
-.search-button {
-  position: absolute !important;
-  height: 0.23625rem !important;
-  border-radius:  5px !important;
-  border: 1mm solid black !important;
-  font-size:  2.43531202435312vh  !important;
-  cursor: pointer !important;
-  width: 8.4vw !important;
-  z-index: 10000000000000000000000 !important;
-  background-color: transparent !important;
-  padding-left: 0.21961932650073207vw !important;
-  top: 1.156773211567732vh !important;
-  right: 23.55051244509517vw !important;
-}
+              width: 34.8vw !important;
+              height: 1cm !important;
+              padding-left: 0.36875rem !important;
+              font-size: 1rem !important;
+              border: 1mm solid black !important;
+              border-radius: 5px !important;
+              position: absolute !important;
+              top: 0.47244rem !important;
+              left: 50% !important;
+              transform: translateX(-50%) !important;
+              z-index: 99 !important;
+         }
+        
+            .search-button {
+              width: 8.4vw;
+              height: 1cm !important;
+              font-size: 1rem;
+              border:1mm solid black;
+              border-left: 0.5625rem;
+              border-radius: 5px;
+              color: black;
+              cursor: pointer;
+              margin-left: 30.472875rem;
+              background-color: transparent;
+              position: absolute;
+              top: 0.47244rem;
+              z-index: 99;
+              right: 21.25984rem;
+            }
 
 /* Texto do botão "Pesquisar" */
 .search-button::before {
@@ -1812,6 +1812,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
