@@ -184,34 +184,32 @@ body {
 
 .icon-glass-container {
   position: fixed !important;
-  bottom: 19cm ;   /* 19cm acima da borda inferior */
-  right: 5mm ;    /* 5mm afastado da lateral direita */
+  top:  93.07458143074581vh !important;
+  right:  0.21961932650073207vw !important;
   display: flex !important;
-  flex-wrap: nowrap !important;
-  align-items: left !important;
-  justify-content: center !important;
+  flex-wrap: nowrap !important;         /* impede quebra de linha */
+  align-items: center !important;       /* alinha verticalmente os ícones */
+  justify-content: center !important;   /* alinha horizontalmente se necessário */
   gap: 0.5124450951683748vw !important;
   z-index: 9999 !important;
-  overflow: visible !important;
+  overflow: visible !important;         /* garante que nada seja cortado */
   box-sizing: border-box !important;
+  
 }
 
-
 .icon-glass-container button {
-  width: 0.3872rem !important;
-  height: 1.067rem  !important;
+  width: 1.7569546120058566vw !important;
+  height: 3.65296803652968vh  !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: center !important;
-  background: transparent !important; 
+    background: transparent !important; 
   border: none !important;
   padding: 0  !important;
   cursor: pointer !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  bottom: 0.504rem !important;
-  
-}
+  top: 93.07458143074581vh !important;
+  }
 
 .icon-glass-container img {
   width: 100% !important;
@@ -220,39 +218,39 @@ body {
   display: block !important;
   box-sizing: border-box !important;
   overflow: visible  !important;
-  bottom: 0.504rem !important;
+  top: 93.07458143074581vh !important;
 }
 
 .glass-icon {
-  width: 0.3872rem !important;
-  height: 1.067rem !important;
+  width: 2.562225475841874vw !important;
+  height: 5.327245053272451vh !important;
   border-radius: 50% !important;
-  backdrop-filter: blur(0.0967rem) saturate(180%) !important;
+  backdrop-filter: blur0.43923865300146414vw) saturate(180%) !important;
   background: rgba(255, 255, 255, 0.2) !important;
   box-shadow : 
-     0 0.0646rem  0.1613rem rgba(255,255,255, 0.3),
-     inset 0.0162rem 0.0162rem 0.0322rem rgba(0,0,0,0.3),
-     inset 0.0322rem 0.0322rem 0.0322rem rgba(0,0,0,0.1) !important;
+     0 0.29282576866764276vw      0.7320644216691069vw   rgba(255,255,255, 0.3),
+     inset 0.07320644216691069vw       0.07320644216691069vw       0.14641288433382138vw   rgba(0,0,0,0.3),
+     inset 0.14641288433382138vw     0.14641288433382138vw       0.14641288433382138vw rgba(0,0,0,0.1) !important;
   display: flex !important;
   justify-content: center  !important;
   align-items: center !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   text-decoration: none !important;
   object-fit: contain !important;
-  padding: 0.0916rem !important;
+  padding: 0.4150805270863836vw !important;
   box-sizing: border-box !important;
   overflow: visible !important;
-  bottom: 0.504rem !important;
+  top: 93.07458143074581vh     !important;
 }
 
 
 .glass-icon:hover {
-  transform: scale(1.4) translateX(-0.0596rem) !important;
+  transform: scale(1.4) translateX(-0.2708638360175695vw) !important;
   box-shadow:
-      0 0.215vw 0.574vw rgba(0,0,0,0.4),
-      inset 0.143vw 0.143vw 0.215vw rgba(255, 255, 255, 0.6),
-      inset 0.215vw 0.215vw 0.215vw rgba(0,0,0,0.2) !important;
-      bottom: 0.504rem !important;
+      0 0.21961932650073207vw       0.5856515373352855vw       rgba(0,0,0,0.4),
+      inset  0.14641288433382138vw      0.14641288433382138vw      0.21961932650073207vw rgba(255, 255, 255, 0.6),
+      inset  0.21961932650073207vw      0.21961932650073207vw      0.21961932650073207vw   rgba(0,0,0,0.2) !important;
+      top: 93.07458143074581vh !important;
 }
 
 .glass-svg {
@@ -265,10 +263,11 @@ body {
   pointer-events: none !important;
   object-fit: contain !important;
   box-sizing: border-box !important;
-  bottom: 0.504rem !important;
+  top: 93.07458143074581vh !important;
   overflow: visible !important;
   position: center;
 }
+
 
 
 
@@ -1688,6 +1687,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
