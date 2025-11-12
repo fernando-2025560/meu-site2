@@ -182,8 +182,7 @@ body {
 
 
 .icon-glass-container {
-  position: fixed !important;
-  bottom: 0.1829rem !important; /* distância de 3mm da parte inferior da tela */
+   bottom: 0.1829rem !important; /* distância de 3mm da parte inferior da tela */
   right: 0.0483rem !important;
   display: flex !important;
   flex-wrap: nowrap !important;         /* impede quebra de linha */
@@ -193,7 +192,7 @@ body {
   z-index: 9999 !important;
   overflow: visible !important;         /* garante que nada seja cortado */
   box-sizing: border-box !important; 
-  margin-top: 96.588vh;
+  margin-top: 19cm;
 }
 
 .icon-glass-container button {
@@ -1687,6 +1686,7 @@ h2 {
     transform-origin: top left;
   }
 }
+
 
 
 
