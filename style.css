@@ -154,7 +154,7 @@ body {
   width: 12vw; /* equivalente a ~3cm */
   height: 2vh; /* equivalente a ~5mm */
   font-size: 1rem;
-  border: 0.2vh solid black;
+  border: 0.2vw solid black;
   border-radius: 1rem !important;
   color: black;
   cursor: pointer;
@@ -163,8 +163,7 @@ body {
   top: 2vh;
   right: calc(50% - 21.5vw); /* mantém alinhamento relativo à barra */
   z-index: 99;
- margin-left: 3cm;
-}
+ }
    
 /* Texto do botão "Pesquisar" */
 .search-button::before {
@@ -1809,6 +1808,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
