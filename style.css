@@ -1829,7 +1829,7 @@ svg {
 
 /* Remove o botão transmitir  (Chromecast) do player */
 iframe[src*="youtube.com"] {
- filter: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg'></svg>") !important;
+ filter: url("data:image/svg+xml;utf8, </svg>") !important;
 }
 
 /*  Esconde manualmente o ícone de  transmitir */
@@ -1850,6 +1850,7 @@ iframe[src*="youtube.com"] {
 
 
  .
+
 
 
 
