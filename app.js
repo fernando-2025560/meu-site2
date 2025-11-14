@@ -949,3 +949,25 @@ window.addEventListener("resize", ajustarLayout);
 
 window.addEventListener("orientationchange", () => {
   location.reload();      // reforça o reposicionamento  do layout ao girar });
+
+
+
+
+
+
+
+
+  document.addEventListener("DOMLontentLoaded", function () {
+    const removeCast = () => {
+      const castBtn = document.querySelector('.ytp-cast-button');
+      if (castBtn) {
+          castBtn.style.display = "none";
+          castBtn.style.opacity = "0";
+          castBtn.style.pointerEvents = "none";
+      }
+    };
+
+
+    // Tenta remover a cada 400ms porque o Youtube cria o botão dinamicamente
+      setIntervel(removeCast, 400);
+  });
