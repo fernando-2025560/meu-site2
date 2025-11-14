@@ -155,7 +155,7 @@ body {
   height: 2vh; /* equivalente a ~5mm */
   font-size: 1rem;
   border: 0.2vh solid black;
-  border-radius: 1rem;
+  border-radius: 1rem !important;
   color: black;
   cursor: pointer;
   background-color: transparent;
@@ -163,6 +163,7 @@ body {
   top: 2vh;
   right: calc(50% - 21.5vw); /* mantém alinhamento relativo à barra */
   z-index: 99;
+ margin-left: 3cm;
 }
    
 /* Texto do botão "Pesquisar" */
@@ -1808,6 +1809,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
