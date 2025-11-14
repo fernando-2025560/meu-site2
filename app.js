@@ -935,6 +935,7 @@ function ajustarLayout() {
 window.addEventListener("load", ajustarLayout);
 window.addEventListener("resize", ajustarLayout);
 
+ 
 
 
 
@@ -944,5 +945,7 @@ window.addEventListener("resize", ajustarLayout);
 
 
 
+// Ajuste automático ao  girar a tela
 
-
+window.addEventListener("orientationchange", () => {
+  location.reload();      // reforça o reposicionamento  do layout ao girar });
