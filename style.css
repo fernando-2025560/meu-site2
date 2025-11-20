@@ -183,8 +183,8 @@ body {
 
 .icon-glass-container {
   position: fixed !important;               /* fixa na tela */
-  bottom: 5mm !important;                   /* 5mm acima da borda inferior */
-  right: 1cm !important;                    /* 1cm da lateral direita */
+  bottom: 0.984vw !important;                   /* 5mm acima da borda inferior */
+  right: 1.968vw !important;                    /* 1cm da lateral direita */
   display: flex !important;
   flex-wrap: nowrap !important;             /* impede quebra de linha */
   align-items: center !important;           /* centraliza verticalmente os ícones */
@@ -197,7 +197,7 @@ body {
 
 /* === Botões individuais === */
 .icon-glass-container button {
- top: 25cm !important;
+ top: 94.488vh !important;
  width: 1.7569546120058566vw !important;
   height: 3.65296803652968vh !important;
   display: flex !important;
@@ -293,7 +293,7 @@ body {
 
 #qrcode-container {
   position: fixed; /* garante que o bloco fique fixo na tela */
-  right: 2cm ; /* distância da lateral direita */
+  right: 3.937vw ; /* distância da lateral direita */
   top: 12.991875rem  ;  /* distância do topo da tela */
   width: 8.104vw ;
   height: 12.556vh ;
@@ -307,7 +307,7 @@ body {
   width: 8.104vw ;
   height: 12.556vh;
   bottom: 50%;
- margin-right: 1cm;
+ margin-right: 1.968vw;
 }
 
 
@@ -624,7 +624,7 @@ body {
 .video-container {
   position: absolute;
   top: 5.4330708661417315rem;
-  left: 37.79527559055118px;
+  left: 1.969vw;
   width: 16.67vw;
   height: 9.38vw;
   border-radius: 0.3125rem;
@@ -661,14 +661,14 @@ body {
 /* Legenda */
 .caption-link {
   position: absolute;
-  left: 37.79527559055118px;
+  left: 1.969vw;
   font-size: 1rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
   line-height: 1.1;
   width: 16.67vw;
-  bottom: 362.835px;
+  bottom: 40.315vh;
 }
 
 
@@ -678,15 +678,15 @@ body {
 
 .chart-wrap {
   position: fixed;
-  right: 18.90px;
-  bottom: 75.59055118110236px;
-  width: 139.84251968503938px;
-  height: 94.48818897637794px;
+  right: 0.984vw;
+  bottom: 8.399vh;
+  width: 7.283vw;
+  height: 10.499vh;
   background: #fff;
-  padding: 9.9px;
+  padding: 0.516vw;
   box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: 0.052vw solid #ccc;
+  border-radius: 0.313vw;
 }
 
 svg.chart {
@@ -715,13 +715,13 @@ svg.chart {
   position: absolute;
   background: #000;
   color: #fff;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 12px;
+  padding: 0.208vw 0.417vw;
+  border-radius: 0.208vw;
+  font-size: 1.444vh;
   pointer-events: none;
   display: none;
   white-space: nowrap;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  box-shadow: 0 0.104vw 0.313vw rgba(0,0,0,0.3);
 }
 
 
@@ -731,13 +731,13 @@ svg.chart {
 /* SVG gráfico estático (gatilho) */
 #graficoSvg {
   cursor: pointer;
-  margin: 50px;
-  border: 2px solid transparent;
+  margin: 2.604vw;
+  border: 0.104vw solid transparent;
   transition: border 0.3s;
 }
 
 #graficoSvg:hover {
-  border: 2px solid #3498db;
+  border: 0.104vw solid #3498db;
 }
 
 /* Container do gráfico dinâmico */
@@ -748,14 +748,14 @@ svg.chart {
   left: 88.7%;
   transform: translate(-50%, -50%);
   background: #fff;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 1.042vw;
+  border-radius: 0.417vw;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3);
   z-index: 100000000000000000000000000;
 }
 
 canvas {
-  max-width: 500px;
+  max-width: 26.042vw;
 }
 
 
@@ -763,7 +763,7 @@ canvas {
 #custom-overlay-container {
   position: absolute;
   top: 5.4330708661417315rem;
-  left: 453.54330708661416px;
+  left: 23.622vw;
   pointer-events: none;  /* evita interferência na página */
 }
 
@@ -784,7 +784,7 @@ canvas {
   display: block;
   text-align: absolute;
   z-index: 3;
-  font-size: 12px;
+  font-size: 1.444vw;
   color: #000;
 }
 
@@ -792,7 +792,7 @@ canvas {
 #custom-video,
 #custom-image,
 #custom-overlay-container {
-  border-radius: 6px; /* ajuste o valor conforme o nível de arredondamento desejado */
+  border-radius: 0.313vw; /* ajuste o valor conforme o nível de arredondamento desejado */
   overflow: hidden; /* útil se o conteúdo interno for maior que a borda */
 }
 
@@ -800,13 +800,13 @@ canvas {
 
 #custom-overlay-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 20.833vw;
 }
 
 #custom-overlay-container {
   position: absolute;
-  top: 86.93px; /* posição vertical do vídeo na tela */
-  left: 374px;  /* posição horizontal do vídeo */
+  top: 9.659vh; /* posição vertical do vídeo na tela */
+  left: 19.479vw;  /* posição horizontal do vídeo */
   width: 16.67vw; /* largura total do contêiner, igual ao vídeo */
   height: auto;
 }
@@ -815,15 +815,15 @@ canvas {
   display: block;
   width: 16.67vw;
   height: 9.38vw;
-  border-radius: 6px;
+  border-radius: 0.313vw;
   z-index: 2;
 }
 
 #custom-caption {
   display: block;
-  margin-top: 3.78px; /* distância de 1mm após o vídeo */
+  margin-top: 0.42vh; /* distância de 1mm após o vídeo */
   width: 100%;        /* mesma largura do vídeo */
-  font-size: 12px;
+  font-size: 1.444vh;
   text-align: absolute;
   text-decoration: underline;
   color: #000;
@@ -836,8 +836,8 @@ canvas {
 /* Bloco absoluto na posição pedida */
 .yt-block {
   position: absolute;
-  top: 117.16535433070865px;           /* 3.1 cm abaixo do topo */
-  left: 566.929px;           /* 15 cm da lateral esquerda */
+  top: 13.018vh;           /* 3.1 cm abaixo do topo */
+  left: 29.528vw;           /* 15 cm da lateral esquerda */
   display: inline-block;
   line-height: 0;
   user-select: none;
@@ -887,7 +887,7 @@ canvas {
 /* Legenda abaixo do bloco */
 .yt-caption {
   display: block;
-  margin-top: 37.795275590551181px;
+  margin-top: 4.199vh;
   font: 500 2.907rem/1.2 system-ui,  Arial, sans-serif;
   text-decoration: none;
   color: #000;
@@ -901,8 +901,8 @@ canvas {
 /* Bloco absoluto na posição pedida */
 .yt-block {
   position: absolute;
-  top: 86.9291338582677px;
-  left: 377.95275590551176px;
+  top: 9.659vh;
+  left: 19.685vw;
   display: inline-block;
   line-height: 0;
   user-select: none;
@@ -922,7 +922,7 @@ canvas {
   object-fit: cover;
   transition: opacity 180ms ease-in-out, visibility 180ms ease-in-out;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0.26vw;
   height: 11.25rem;
 }
 
@@ -937,7 +937,7 @@ canvas {
   visibility: hidden;
   pointer-events: none;
   transition: opacity 180ms ease-in-out, visibility 180ms ease-in-out;
-  border-radius: 5px;
+  border-radius: 0.26vw;
 }
 
 /* Estado ativo: video-aparece */
@@ -945,7 +945,7 @@ canvas {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  height: 181.41732283464566px;
+  height: 20.157vh;
 }
 
 .yt-wrap.playing .yt-iframe {
@@ -957,8 +957,8 @@ canvas {
 /* Legenda abaixo do bloco */
 .yt-caption {
   display: block;
-  margin-top: 37.79527559055118px;
-  font: 500 13px/1.2   Arial, sans-serif;
+  margin-top: 4.199vh;
+  font: 500 1.444vh/1.2   Arial, sans-serif;
   text-decoration: none;
   color: #000 !important;
   width: 20rem;
@@ -968,8 +968,8 @@ canvas {
 
 #customVideoBox {
  position: absolute;
- top: 86.9291338582677px; 
- left: 718.1102362204724px; 
+ top: 9.659vh; 
+ left: 37.402vw; 
  text-decoration: underline;
 }
 
@@ -982,16 +982,16 @@ canvas {
 } 
 
 #videoCaption { 
-margin-top: 37.79527559055118px;
+margin-top: 4.199vh;
  text-align: absolute;
  font-family: Arial, sans-serif;
- font-size: 13px;
+ font-size: 1.444vh;
  }
 
  .video-miniatura {
   position: absolute;
-  top: 302px;
-  left: 38px;
+  top: 33.556vh;
+  left: 1.979vw;
   width: 20rem;
 }
 
@@ -1002,16 +1002,16 @@ margin-top: 37.79527559055118px;
 }
 
 .video-legenda {
-  margin-top: 4px;
-  font-size: 13px;
+  margin-top: 0.444vh;
+  font-size: 1.444vh;
   font:  Arial, sans-serif;
 }
 
 
 #video-area {
   position: absolute;
-  top: 302px;         /* 8cm do topo */
-  left: 378px;        /* 6cm da esquerda */
+  top: 33.556vh;         /* 8cm do topo */
+  left: 19.688vw;        /* 6cm da esquerda */
   width: 20rem;     /* Miniatura padrão */
 }
 
@@ -1022,8 +1022,8 @@ margin-top: 37.79527559055118px;
 }
 
 .video-caption {
-  margin-top: 4px;         /* 1mm abaixo do vídeo */
-  font-size: 13px;
+  margin-top: 0.208vw;         /* 1mm abaixo do vídeo */
+  font-size: 1.444vh;
   text-align: absolute;
   color: #000;
   font:  Arial, sans-serif;
@@ -1032,8 +1032,8 @@ margin-top: 37.79527559055118px;
 /* Container exclusivo para não afetar nada no site */
 .custom-video-container {
   position: absolute;
-  top: 302.36px;
-  right: 310px;
+  top: 33.596vh;
+  right: 16.146vw;
   text-align: center;
 }
 
@@ -1048,7 +1048,7 @@ margin-top: 37.79527559055118px;
   width: 20rem;
   height: 11.25rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.26vw;
 }
 
 /* Ícone de play exclusivo */
@@ -1057,11 +1057,11 @@ margin-top: 37.79527559055118px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 5.333vh;
   color: white;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 50%;
-  padding: 0.625rem 18px;
+  padding: 0.625rem 0.938vw;
   cursor: pointer;
   transition: opacity 0.3s ease;
   user-select: none;
@@ -1069,29 +1069,29 @@ margin-top: 37.79527559055118px;
 
 /* Legenda-link exclusiva */
 .custom-video-caption {
-  margin-top: 3.78px;
-  font-size: 13px;
+  margin-top: 0.42vh;
+  font-size: 1.444vh;
   width: 20rem;
 }
 
 .custom-video-caption a {
   display: block;
   width: 20rem;
-  margin-top: 3.78px;
+  margin-top: 0.42vh;
   text-align: left;
   word-wrap: break-word;
   color: #000;
 }
 
 .video-caption {
-  margin-top: 3.78px; /* distância entre o vídeo e a legenda */
+  margin-top: 0.42vh; /* distância entre o vídeo e a legenda */
 }
 
   
 #youtubeVideo {
   position: absolute;
-  left: 37.8px;   /* distância da lateral-esquerda */
-  top: 87px;  /* distância do topo da tela */
+  left: 1.969vw;   /* distância da lateral-esquerda */
+  top: 9.667vh;  /* distância do topo da tela */
   width: 20rem;
   height: 11.25rem;
   border-radius: 0.3125rem;
@@ -1111,7 +1111,7 @@ body {
 
 .conteudo {
   width: 95%;
-  max-width: 1200px;
+  max-width: 62.5vw;
   margin: 0 auto;
   padding: 1.25rem;
 }
@@ -1131,7 +1131,7 @@ h2 {
   width: 100%;
   aspect-ratio: 16 / 9;
   border: none;
-  border-radius: 6px;
+  border-radius: 0.313vw;
 }
 
 .bloco {
@@ -1139,7 +1139,7 @@ h2 {
   padding: 1.25rem;
   background: rgba(255,255,255,0.9);
   border-radius: 1.25rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.208vw 0.417vw rgba(0, 0, 0, 0.1);
 }
 
 .qr-code img {
@@ -1149,9 +1149,9 @@ h2 {
 
 .grafico {
   width: 100%;
-  height: 400px;
+  height: 44.444vh;
   background: #e3e3e3;
-  border-radius: 8px;
+  border-radius: 0.417vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1175,7 +1175,7 @@ h2 {
   grid-auto-rows: auto;
   gap: 0.625rem;
   justify-content: center;
-  padding-bottom: calc(75.59055118110236px + 11.25rem);          /* primeira linha 2cm a cima do fundo */
+  padding-bottom: calc(8.399vh + 11.25rem);          /* primeira linha 2cm a cima do fundo */
   padding-top: 1.25rem; 
 }
 
@@ -1193,8 +1193,8 @@ h2 {
 }
 
 .vid-box p {
-  margin: 37.79527559055118px 0 0 0;      /* 1mm abaixo do vídeo */
-  font-size: 14px;
+  margin: 1.969vw 0 0 0;      /* 1mm abaixo do vídeo */
+  font-size: 1.556vh;
   text-align: center; 
 }
 
@@ -1210,8 +1210,8 @@ h2 {
 
 .video-frame {
   position: absolute;
-  top: 536.6929133858267px;
-  left: 37.79527559055118px;
+  top: 59.633vh;
+  left: 1.969vw;
   width: 20rem;
   height: 11.25rem;
   border-radius: 0.3125rem;
@@ -1234,7 +1234,7 @@ h2 {
 
 /* Adicionando um container com rolagem */
 .container {
-  height: 793.7px; /* Altura da área rolável (21 cm) */
+  height: 88.189vh; /* Altura da área rolável (21 cm) */
   overflow-y: scroll; /* Permite rolagem vertical */
   width: 100%; /* Largura do container */
 }
@@ -1242,8 +1242,8 @@ h2 {
 
 #customVideoBox2 {
   position: absolute;
-  top: 529px;
-  left: 37.79527559055118px;
+  top: 58.778vh;
+  left: 1.969vw;
   height: 11.25rem;
 }
 
@@ -1253,9 +1253,9 @@ h2 {
 }
 
 #videoCaption2 {
-  margin-top: 37.79527559055118px;
+  margin-top: 4.199vh;
   width: 20rem;
-  font-size: 13px;
+  font-size: 1.444vh;
   color: #000;
 }
 
@@ -1263,7 +1263,7 @@ h2 {
   display: block;
   text-align: absolute;
   text-decoration: none;
-  padding: 8px;
+  padding: 0.417vw;
   border-radius: 0.3125rem;
   color: #000;
   font-family: Arial, sans-serif;
@@ -1271,8 +1271,8 @@ h2 {
 
 #customVideoBox3 {
   position: absolute;
-  top: 529px;
-  left: 377.95275590551176px;
+  top: 58.778vh;
+  left: 19.685vw;
   height: 11.25rem;
 }
 
@@ -1282,9 +1282,9 @@ h2 {
 }
 
 #videoCaption3 {
-  margin-top: 37.79527559055118px;
+  margin-top: 4.199vh;
   width: 20rem;
-  font-size: 13px;
+  font-size: 1.444vh;
   color: #000;
 }
 
@@ -1292,7 +1292,7 @@ h2 {
   display: block;
   text-align: absolute;
   text-decoration: none;
-  padding: 8px;
+  padding: 0.417vw;
   border-radius: 0.30625rem;
   color: #000;
   font-family: Arial, sans-serif;
@@ -1300,8 +1300,8 @@ h2 {
 
 #customVideoBox4 {
   position: absolute;
-  top: 529.13px; /* 14 cm do topo da tela */
-  left:  718.11px; /* 19 cm da lateral esquerda */
+  top: 58.792vh; /* 14 cm do topo da tela */
+  left:  37.402vw; /* 19 cm da lateral esquerda */
   width: 20rem; /* Largura do vídeo */
   height: 11.25rem; /* Altura do vídeo */
   background-color: #000; /* Fundo preto para o contêiner do vídeo */
@@ -1319,7 +1319,7 @@ h2 {
   margin-top: 0.625rem;
   text-align: absolute;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 1.444vh;
   color: #000;
 }
 
@@ -1336,7 +1336,7 @@ h2 {
 
 #videoCaption a {
   color: black;
-  font-size: 13px !important;
+  font-size: 1.444vh !important;
   text-decoration: none;
 }
 
@@ -1346,8 +1346,8 @@ h2 {
 /* Container geral do vídeo */
 .video-container {
   position: absolute;        /* permite posicionamento exato na tela */
-  left: 377.95px;                 /* distância da lateral esquerda */
-  top: 755.90px;                  /* distância do topo da tela */
+  left: 19.685vw;                 /* distância da lateral esquerda */
+  top: 83.989vh;                  /* distância do topo da tela */
   width: 20rem;              /* largura do vídeo (igual à do iframe) */
   text-align: absolute;        /* centraliza a legenda abaixo do vídeo */
 }
@@ -1355,22 +1355,22 @@ h2 {
 /* Estilo do vídeo incorporado */
 .video-container iframe {
   width: 20rem;              /* largura exata */
-  height: 192px;             /* altura exata */
+  height: 21.333vh;             /* altura exata */
   display: block;            /* garante que fique acima da legenda */
   margin: 0 auto;            /* centraliza dentro do container */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* sombra sutil opcional */
+  box-shadow: 0 0.208vw 0.625vw rgba(0, 0, 0, 0.25); /* sombra sutil opcional */
 }
 
 /* Legenda-link logo abaixo do vídeo */
 .video-caption {
   display: block;
-  margin-top: 3.7795275590551185px;           /* 1 mm abaixo do vídeo */
+  margin-top: 0.42vh;           /* 1 mm abaixo do vídeo */
   font-size: 1rem;
   font-family: Arial, sans-serif;
   color: #000;
   text-decoration: underline;
-  padding: 4px 8px;
-  border-radius: 6px;
+  padding: 0.208vw 0.417vw;
+  border-radius: 0.313vw;
   transition: 0.3s;
 }
 
@@ -1378,10 +1378,10 @@ h2 {
 /* Contêiner principal do vídeo */
 #customVideoBox5 {
   position: absolute;
-  top: 755.90px;         /* distância do topo da tela */
-  left: 37.8px;         /* distância da lateral esquerda */
+  top: 83.989vh;         /* distância do topo da tela */
+  left: 1.969vw;         /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo (ajuste se desejar) */
-  height: 197px;     /* altura proporcional (16:9) */
+  height: 21.889vh;     /* altura proporcional (16:9) */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1396,7 +1396,7 @@ h2 {
 
 /* Legenda abaixo do vídeo */
 #videoCaption5 {
-  margin-top: 3.78px;   /* legenda a 1mm abaixo do vídeo */
+  margin-top: 0.42vh;   /* legenda a 1mm abaixo do vídeo */
   font-size: 1rem;
   text-align: absolute;
 }
@@ -1405,8 +1405,8 @@ h2 {
 #videoCaption5 a {
   text-decoration: underline;
   color: #000; /* cor da legenda (ajuste conforme fundo) */
-  padding: 3px 6px;
-  border-radius: 4px;
+  padding: 0.156vw 0.313vw;
+  border-radius: 0.208vw;
 }
 
 
@@ -1419,8 +1419,8 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox7 {
   position: absolute;
-  top: 755.9055118110235px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.1102362204724px;        /* distância da lateral esquerda */
+  top: 83.99vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 37.402vw;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
 }
@@ -1428,11 +1428,11 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption7 {
   position: absolute;
-  top: calc(755.9055118110235px + 11.25rem); /* 20cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
+  top: calc(83.99vh + 11.25rem); /* 20cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 37.402vw;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.1;
   color: #ffffff;
@@ -1446,8 +1446,8 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox8 {
   position: absolute;
-  top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.1102362204724px;        /* distância da lateral esquerda */
+  top: 109.361vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 37.402vw;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;    /* altura padrão do vídeo */
 }
@@ -1455,8 +1455,8 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption8 {
   position: absolute;
-  top: calc(984.25px + 11.25rem); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
+  top: calc(109.361vh + 11.25rem); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 37.402vw;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1471,8 +1471,8 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox9 {
   position: absolute;
-  top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
-  left: 377.95px;        /* distância da lateral esquerda */
+  top: 109.361vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 19.685vw;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
 }
@@ -1480,11 +1480,11 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption9 {
   position: absolute;
-  top: calc(984.25px + 11.25rem); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 377.95px;                    /* mesma distância lateral do vídeo */
+  top: calc(109.361vh + 11.25rem); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 19.685vw;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.1;
   color: #ffffff;
@@ -1497,8 +1497,8 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox10 {
   position: absolute;
-  top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
-  left: 37.8px;        /* distância da lateral esquerda */
+  top: 109.361vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 1.969vw;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
 }
@@ -1506,8 +1506,8 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption10 {
   position: absolute;
-  top: calc(984.25px + 11.25rem); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 37.8px;                    /* mesma distância lateral do vídeo */
+  top: calc(109.361vh + 11.25rem); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 1.969vw;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1523,8 +1523,8 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox11 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 37.8px;        /* distância da lateral esquerda */
+  top: 134.333vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 1.969vw;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
 }
@@ -1532,8 +1532,8 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption11 {
   position: absolute;
-  top: calc(1209px + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 37.8px;                    /* mesma distância lateral do vídeo */
+  top: calc(134.333vh + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 1.969vw;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1549,8 +1549,8 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox12 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 377.953px;        /* distância da lateral esquerda */
+  top: 134.333vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 19.685vw;        /* distância da lateral esquerda */
   width: 20rem;      /* largura padrão do vídeo */
   height: 11.25rem;     /* altura padrão do vídeo */
 }
@@ -1558,11 +1558,11 @@ h2 {
 /* Legenda-link abaixo do vídeo */
 #videoCaption12 {
   position: absolute;
-  top: calc(1209px + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 377.953px;                    /* mesma distância lateral do vídeo */
+  top: calc(134.333vh + 11.25rem); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 19.685vw;                    /* mesma distância lateral do vídeo */
   width: 20rem;                  /* igual à largura do vídeo */
   text-align: absolute;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family:  Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.1;
   color: #000;
@@ -1586,7 +1586,7 @@ h2 {
   left: 37.5vw;              /* mesma distância lateral do vídeo */
   width: 16.7vw;             /* igual à largura do vídeo */
   text-align: center;        /* “absolute” não é valor válido */
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 0.68vw;         /* 13px ≈ 0.68% da largura da tela de 1920px */
   line-height: 1.1;
   color: #000;
@@ -1720,8 +1720,8 @@ iframe[src*="youtube.com"] {
 /* ====== Contêiner principal dos ícones com efeito vidro ====== */
 .icon-glass-container {
   position: fixed !important;
-  top: clamp(20vh, 24cm, 25vh) !important;
-  right: clamp(0.8mm, 1cm, 1.5cm) !important;
+  top: clamp(20vh, 90.709vh, 25vh) !important;
+  right: clamp(1.575vw, 1.968vw, 2.953vw) !important;
   display: flex !important;
   flex-wrap: nowrap !important;
   align-items: center !important;
@@ -1805,7 +1805,7 @@ iframe[src*="youtube.com"] {
 /* ===== Estilo universal dos SVGs ===== */
 svg {
   display: inline-block;
-  margin: clamp(0.8mm, 0.15vw, 1mm);
+  margin: clamp(1.575vw, 0.15vw, 0.197vw);
   vertical-align: middle;
   transition: all 0.3s ease;
 }
@@ -1822,6 +1822,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
