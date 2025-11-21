@@ -1576,8 +1576,8 @@ h2 {
   position: absolute;
   top: 75vh;         /* ajuste conforme a posição do seu vídeo */
   left: 37.5vw;        /* distância da lateral esquerda */
-  width: 16.7vw;      /* largura padrão do vídeo */
-  height: 9.4vw;     /* altura padrão do vídeo */
+  width: 25vw;      /* largura padrão do vídeo */
+  height: calc(25vw * 0.5625;     /* altura padrão do vídeo */
 }
 
 #videoCaption13 {
@@ -1822,6 +1822,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
