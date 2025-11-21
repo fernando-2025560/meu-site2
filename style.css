@@ -161,7 +161,7 @@ body {
   background-color: transparent;
   position: absolute;
   top: 2vh;
-  right: calc(50% - 21.5vw); /* mantém alinhamento relativo à barra */
+  right: calc(50% - 22.5vw); /* mantém alinhamento relativo à barra */
   z-index: 99;
  }
    
@@ -1822,6 +1822,7 @@ svg {
     flex-direction: column !important;
   }
 }
+
 
 
 
