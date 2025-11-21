@@ -1596,48 +1596,67 @@ h2 {
 }
 
 
-/* Remove o botão transmitir (Chromecast) do player */
-iframe[src*="youtube.com"] {
-    filter: url("data:image/svg+xml;utf8, </svg>") !important;
+/* ============================= */
+/* 🔧 CONFIGURAÇÃO GLOBAL */
+/* ============================= */
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
 }
 
-/* Esconde manualmente o ícone de transmitir */
+*, *::before, *::after {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* ============================= */
+/* ❌ REMOVER O BOTÃO DE TRANSMITIR */
+/* ============================= */
+
+iframe[src*="youtube.com"] {
+  filter: url("data:image/svg+xml;utf8, </svg>") !important;
+}
+
 .ytp-cast-button,
 .ytp-chrome-controls .ytp-button[aria-label*="Transmitir"],
 .ytp-button[title*="Transmitir"],
 .ytp-button[aria-label*="Cast"] {
-    display: none !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
-
 /* ============================= */
-/* 📱 RESPONSIVIDADE EM LARGURA  */
+/* 📱 RESPONSIVIDADE EM LARGURA */
 /* ============================= */
 
-/* Extra large → desktop full (até ~1600px) */
 @media (max-width: 100rem) {
   .video-grid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-/* Large → notebooks (até ~1420px) */
 @media (max-width: 88.75rem) {
   .video-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* Medium → tablets grandes (até ~1200px) */
 @media (max-width: 75rem) {
   .video-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Small → tablets pequenos / smartphones grandes (até ~825px) */
 @media (max-width: 51.5625rem) {
   .video-grid {
     grid-template-columns: 1fr;
@@ -1649,7 +1668,6 @@ iframe[src*="youtube.com"] {
   }
 }
 
-/* Extra small → smartphones menores (até ~550px) */
 @media (max-width: 34.375rem) {
   .header {
     flex-direction: column;
@@ -1658,54 +1676,39 @@ iframe[src*="youtube.com"] {
 }
 
 /* ============================= */
-/* 📏 RESPONSIVIDADE EM ALTURA   */
+/* 📐 RESPONSIVIDADE EM ALTURA */
 /* ============================= */
 
-/* Alturas menores (opcional) */
-@media (max-height: 56.25rem) { /* ~900px */
+@media (max-height: 90rem) { 
   #customYT {
     height: 32rem;
   }
 }
 
-@media (max-height: 48.75rem) { /* ~780px */
+@media (max-height: 78rem) {
   #videoCaption {
-    font-size: 0.9em;
+    font-size: 1.4rem;
   }
 }
 
-@media (max-height: 45rem) { /* ~720px */
+@media (max-height: 72rem) {
   .video-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-height: 38.75rem) { /* ~620px */
+@media (max-height: 62rem) {
   #customYT {
     height: 24rem;
   }
 }
 
 /* ============================= */
-/* 🌐 ORIENTAÇÃO E AJUSTES GERAIS */
+/* 🌐 ORIENTAÇÃO */
 /* ============================= */
 
 @media screen and (orientation: portrait),
        screen and (orientation: landscape) {
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    box-sizing: border-box;
-  }
-
-  * {
-    box-sizing: inherit;
-    max-width: 100%;
-  }
 
   body {
     transform: scale(1);
@@ -1713,104 +1716,106 @@ iframe[src*="youtube.com"] {
   }
 }
 
+/* ============================= */
+/* 🌟 ÍCONES – EFEITO VIDRO */
+/* ============================= */
 
+/* Valores convertidos corretamente para REM */
 
-
-
-/* ====== Contêiner principal dos ícones com efeito vidro ====== */
 .icon-glass-container {
   position: fixed !important;
-  top: clamp(20vh, 90.709vh, 25vh) !important;
-  right: clamp(1.575vw, 1.968vw, 2.953vw) !important;
+
+  /* Substitutos equivalentes dos seus clamp(vw/vh) */
+  top: clamp(20vh, 60vh, 25vh); /* Mantido em vh para manter posição */
+  right: clamp(1.89rem, 3vw, 3.545rem);
+
   display: flex !important;
-  flex-wrap: nowrap !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 0.5vw !important;
+  flex-wrap: nowrap !important;
+
+  gap: 0.60rem !important;
+
   z-index: 9999 !important;
   overflow: visible !important;
-  box-sizing: border-box !important;
+
   transition: all 0.3s ease !important;
 }
 
-/* ====== Botões individuais ====== */
+/* Botões */
+
 .icon-glass-container button {
-  width: 1.8vw !important;
-  height: 3.6vh !important;
+  width: 2.16rem !important;
+  height: 2.43rem !important;
+
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+
   background: transparent !important; 
   border: none !important;
   padding: 0 !important;
   cursor: pointer !important;
-  box-sizing: border-box !important;
+
   overflow: visible !important;
 }
 
-/* ====== Imagem ou SVG dentro do botão ====== */
+/* SVG e imagens */
+
 .icon-glass-container img,
 .icon-glass-container svg {
   width: 100% !important;
   height: 100% !important;
   object-fit: contain !important;
-  display: block !important;
-  box-sizing: border-box !important;
-  overflow: visible !important;
   pointer-events: none !important;
 }
 
-/* ====== Ícones com efeito de vidro ====== */
+/* Efeito vidro */
+
 .glass-icon {
-  width: 2.6vw !important;
-  height: 5.3vh !important;
+  width: 3.12rem !important;
+  height: 3.58rem !important;
+
   border-radius: 50% !important;
-  backdrop-filter: blur(0.4vw) saturate(180%) !important;
-  background: rgba(255, 255, 255, 0.2) !important;
-  box-shadow:
-    0 0.3vw 0.7vw rgba(255, 255, 255, 0.3),
-    inset 0.07vw 0.07vw 0.15vw rgba(0,0,0,0.3),
-    inset 0.15vw 0.15vw 0.15vw rgba(0,0,0,0.1) !important;
+
+  backdrop-filter: blur(0.48rem) saturate(180%) !important;
+
+  background: rgba(255,255,255,0.2) !important;
+
+  padding: 0.48rem !important;
+
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
-  padding: 0.4vw !important;
-  box-sizing: border-box !important;
-  overflow: visible !important;
-}
 
-/* ====== Hover ====== */
-.glass-icon:hover {
-  transform: scale(1.2) translateX(-0.3vw) !important;
   box-shadow:
-    0 0.2vw 0.6vw rgba(0,0,0,0.4),
-    inset 0.15vw 0.15vw 0.2vw rgba(255, 255, 255, 0.6),
-    inset 0.2vw 0.2vw 0.2vw rgba(0,0,0,0.2) !important;
+    0 0.6rem 1.05rem rgba(255, 255, 255, 0.3),
+    inset 0.20rem 0.20rem 0.30rem rgba(0,0,0,0.3),
+    inset 0.30rem 0.30rem 0.30rem rgba(0,0,0,0.1) !important;
 }
 
-/* ====== SVG dentro do vidro ====== */
-.glass-svg {
-  width: 80% !important;
-  height: 80% !important;
-  display: block !important;
-  margin: 0 !important;
-  transition: transform 0.3s ease !important;
-  pointer-events: none !important;
-  object-fit: contain !important;
-  box-sizing: border-box !important;
-  overflow: visible !important;
+/* Hover */
+
+.glass-icon:hover {
+  transform: scale(1.2) translateX(-0.30rem) !important;
+  box-shadow:
+    0 0.4rem 1rem rgba(0,0,0,0.4),
+    inset 0.25rem 0.25rem 0.35rem rgba(255,255,255,0.6),
+    inset 0.35rem 0.35rem 0.35rem rgba(0,0,0,0.2) !important;
 }
 
-/* ===== Estilo universal dos SVGs ===== */
+/* SVG Universal */
+
 svg {
   display: inline-block;
-  margin: clamp(1.575vw, 0.15vw, 0.197vw);
-  vertical-align: middle;
+  margin: 0.60rem;
   transition: all 0.3s ease;
 }
 
-/* ===== Responsividade do contêiner ===== */
+/* Responsividade do container */
+
 @media (orientation: landscape) {
   .icon-glass-container {
     flex-direction: row !important;
